@@ -4,6 +4,7 @@ int pawn(t_game *game, t_board *from, t_board *to)
 {
     t_board *temp = from;
 
+    printf("from %p to %p\n", from, to);
     if(game->turn == 0)
     {
         if(((to == temp->up->up && from->square / 10 == 2 && !temp->up->piece) || to == temp->up) && !to->piece)
@@ -13,7 +14,7 @@ int pawn(t_game *game, t_board *from, t_board *to)
     }
     else
     {
-        if(((to == temp->down->down && from->square / 10 == 7 && !temp->up->piece) || to == temp->down) && !to->piece)
+        if(((to == temp->down->down && from->square / 10 == 7 && !temp->down->piece) || to == temp->down) && !to->piece)
             return (0);
         else if((to == temp->diagosw && temp->diagosw->piece > 0) || (to == temp->diagose && temp->diagose->piece > 0))
             return (0);
@@ -148,12 +149,51 @@ int king(t_game *game, t_board *from, t_board *to)
         return (0);
     return (1);
 }
-int is_valid(t_board *from, t_board *to, t_game *game)
+int is_check(t_game *game, t_board *from, t_board *to)
 {
-    if((game->check && abs(from->piece) != 6)  || (from->piece > 0 && to->piece > 0) || (from->piece < 0 && to->piece < 0))
+    t_player *active = game->white;
+    t_player *player = game->black;
+    int f = from->piece;
+    int t = to->piece;
+    if(game->turn)
+    {
+        active = game->black;
+        player = game->white;
+    }
+    from->piece = 0;
+    to->piece = f;
+    fill_move(game, player, 0);
+    t_player *temp = player;
+    t_move *temp2;
+    while(temp)
+    {
+        temp2 = temp->moves;
+        while(temp2->close)
+        {
+            if(temp2->attack && abs(temp2->to->piece) == 6)
+            {
+                clear_move(player);
+                from->piece = f;
+                to->piece = t;
+                return (1);
+            }
+            temp2=temp2->next;
+        }
+        temp = temp->next;
+    }
+    clear_move(player);
+    from->piece = f;
+    to->piece = t;
+    return (0);
+}
+int is_valid(t_board *from, t_board *to, t_game *game, int first)
+{
+    if(first && is_check(game, from, to))
+        return(1);
+    if((from->piece > 0 && to->piece > 0) || (from->piece < 0 && to->piece < 0))
         return (1);
     else if(abs(from->piece) == 1)
-        return(pawn(game, from, to));//check if piece is blocking for doublemove
+        return(pawn(game, from, to));
     else if(abs(from->piece) == 2)
         return(tower(game, from, to));
     else if(abs(from->piece) == 3)
@@ -162,7 +202,7 @@ int is_valid(t_board *from, t_board *to, t_game *game)
         return(bishop(game, from, to));
     else if(abs(from->piece) == 5 && (!tower(game, from, to) || !bishop(game, from, to)))
         return (0);
-    else
+    else if(abs(from->piece) == 6)
         return(king(game, from, to));
 }
 t_board *find_square(t_game *game, int pos)
@@ -173,7 +213,7 @@ t_board *find_square(t_game *game, int pos)
         temp = temp->next;
     return (temp);
 }
-void fill_move(t_game *game, t_player *player)
+void fill_move(t_game *game, t_player *player, int first)
 {
     t_player *temp = player;
     t_board *temp2;
@@ -191,12 +231,11 @@ void fill_move(t_game *game, t_player *player)
                     temp2 = temp2->next;
                 if(!temp2)
                     break;
-                if(!is_valid(temp->pos, temp2, game))
+                if(!is_valid(temp->pos, temp2, game, first))
                 {
                     if(temp2->piece)
                         temp3->attack = 1;
-                    if(temp2->piece == 6 || temp2->piece == -6)
-                        temp3->check = 1;
+                    //check if it is check;
                     temp3->close = 1;
                     temp3->from = temp->pos;
                     temp3->to = temp2;
@@ -227,6 +266,8 @@ void clear_move(t_player *player)
         while(temp2->close)
         {
             temp2->close = 0;
+            temp2->attack = 0;
+            temp2->check = 0;
             temp2 = temp2->next;
         }
         temp = temp->next;

@@ -5,7 +5,7 @@ void test(void *param)
     t_game *game = param;
     if(mlx_is_key_down(game->mlx, MLX_KEY_Q))
     {
-        fill_move(game, game->white);
+        fill_move(game, game->white, 1);
         t_player *temp = game->white;
         t_move *temp2;
 
@@ -39,7 +39,6 @@ int main(int ac, char **av)
     mlx_cursor_hook(game->mlx, &mouse, game);
     mlx_mouse_hook(game->mlx, &click, game);
     mlx_loop_hook(game->mlx, &test, game);
-    //fill_move(game, game->white);
     temp = game->white;
     //while(temp)
     //{

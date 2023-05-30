@@ -85,7 +85,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                 temp = temp->next;
             while(sel->square != game->selected)
                 sel = sel->next;
-            if(!is_valid(sel, temp, game))
+            if(!is_valid(sel, temp, game, 1))
             {
                 game->selected = 0;
                 mlx_delete_image(game->mlx, game->select);
@@ -131,7 +131,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
         if(!game->gamemode && game->turn == 1)
         {
             srand(time(NULL));
-            fill_move(game, game->black);
+            fill_move(game, game->black, 1);
             apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black) + 1))));
             clear_move(game->black);
             game->turn = 0;
