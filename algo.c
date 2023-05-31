@@ -97,7 +97,7 @@ int knight(t_game *game, t_board *from, t_board *to)
 {
     t_board *temp;
 
-    if(from->square < 78)
+    if(from->square < 71)
     {
         temp = from->up->up;
         if(to == temp->right || to == temp->left && ((from->piece <= 0 && to->piece >= 0) || (from->piece >= 0 && to->piece <= 0)))
