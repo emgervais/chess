@@ -132,7 +132,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
         {
             srand(time(NULL));
             fill_move(game, game->black, 1);
-            apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black) + 1))));
+            apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black)))));
             clear_move(game->black);
             game->turn = 0;
         }
