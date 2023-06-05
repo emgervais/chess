@@ -1,10 +1,30 @@
 #include "chess.h"
+void init_promo(t_game *game, t_board *current)
+{
+    if((game->x < 50 && game->x >= 0) && (game->y < 50 && game->y >= 0))
+        square(game, current, find_img(game->img, 4), 4);
+    else if((game->x < 100 && game->x >= 50) && (game->y < 50 && game->y >= 0))
+        square(game, current, find_img(game->img, 3), 3);
+    else if((game->x < 50 && game->x >= 0) && (game->y < 100 && game->y >= 50))
+        square(game, current, find_img(game->img, 5), 5);
+    else if((game->x < 100 && game->x >= 50) && (game->y < 100 && game->y >= 50))
+        square(game, current, find_img(game->img, 2), 2);
+}
 
+int is_promo(t_game *game, t_board *from, t_board *to)
+{
+    printf("%d %d\n", to->square, from->piece);
+    if ((to->square / 10 == 8 || to->square / 10 == 1) && abs(from->piece) == 1)
+    {
+        printf("hey\n");
+        return (1);
+    }
+    return (0);
+}
 int pawn(t_game *game, t_board *from, t_board *to)
 {
     t_board *temp = from;
 
-    printf("from %p to %p\n", from, to);
     if(game->turn == 0)
     {
         if(((to == temp->up->up && from->square / 10 == 2 && !temp->up->piece) || to == temp->up) && !to->piece)
@@ -149,47 +169,9 @@ int king(t_game *game, t_board *from, t_board *to)
         return (0);
     return (1);
 }
-int is_check(t_game *game, t_board *from, t_board *to)
-{
-    t_player *active = game->white;
-    t_player *player = game->black;
-    int f = from->piece;
-    int t = to->piece;
-    if(game->turn)
-    {
-        active = game->black;
-        player = game->white;
-    }
-    from->piece = 0;
-    to->piece = f;
-    fill_move(game, player, 0);
-    t_player *temp = player;
-    t_move *temp2;
-    while(temp)
-    {
-        temp2 = temp->moves;
-        while(temp2->close)
-        {
-            if(temp2->attack && abs(temp2->to->piece) == 6)
-            {
-                clear_move(player);
-                from->piece = f;
-                to->piece = t;
-                return (1);
-            }
-            temp2=temp2->next;
-        }
-        temp = temp->next;
-    }
-    clear_move(player);
-    from->piece = f;
-    to->piece = t;
-    return (0);
-}
+
 int is_valid(t_board *from, t_board *to, t_game *game, int first)
 {
-    if(first && is_check(game, from, to))
-        return(1);
     if((from->piece > 0 && to->piece > 0) || (from->piece < 0 && to->piece < 0))
         return (1);
     else if(abs(from->piece) == 1)

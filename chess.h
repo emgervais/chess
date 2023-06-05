@@ -77,3 +77,5 @@ int how_many_moves(t_player *player);
 t_move *choose_move_rand(t_player *player, int move);
 void apply_move(t_game *game, t_move *move);
 void clear_move(t_player *player);
+int is_promo(t_game *game, t_board *from, t_board *to);
+void init_promo(t_game *game, t_board *current);

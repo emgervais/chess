@@ -94,10 +94,30 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     if(is_enemy(game, 0, temp))
                         mlx_delete_image(game->mlx, temp->img);
                     mlx_delete_image(game->mlx, sel->img);
-                    temp->img = mlx_new_image(game->mlx, 80, 80);
-                    temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
-                    mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
-                    update_pos(game, sel, temp, 0);
+                    if(is_promo(game, sel, temp))
+                    {
+                        mlx_texture_t *text = mlx_load_png("./img/promo.png");
+                        mlx_image_t *promo = mlx_new_image(game->mlx, 100, 100);
+                        promo = mlx_texture_to_image(game->mlx, text);
+                        mlx_image_to_window(game->mlx, promo, 0, 0);
+                        while (1)
+                        {
+                            if(game->x / 100 * 100 == 0 && game->y / 100 * 100 == 0 && button == MLX_MOUSE_BUTTON_LEFT && action == 0)
+                            {
+                                init_promo(game, temp);
+                                break;
+                            }
+                        }
+                        mlx_delete_image(game->mlx, promo);
+                        mlx_delete_texture(text);
+                    }
+                    else
+                    {
+                        temp->img = mlx_new_image(game->mlx, 80, 80);
+                        temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
+                        mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
+                        update_pos(game, sel, temp, 0);
+                    }
                     game->turn = 1;
                 }
                 else
@@ -130,7 +150,6 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
         }
         if(!game->gamemode && game->turn == 1)
         {
-            srand(time(NULL));
             fill_move(game, game->black, 1);
             apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black)))));
             clear_move(game->black);
