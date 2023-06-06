@@ -218,6 +218,7 @@ void init_player(t_game *game)
         temp2 = malloc(sizeof(t_player));
         temp2->next = NULL;
         temp2->piece = board->piece;
+        temp2->m = 0;
         temp2->pos = board;
         while(temp->next)
             temp = temp->next;
@@ -237,6 +238,7 @@ void init_player(t_game *game)
         temp2->next = NULL;
         temp2->piece = board->piece;
         temp2->pos = board;
+        temp2->m = 0;
         while(temp->next)
             temp = temp->next;
         temp->next = temp2;
@@ -347,12 +349,11 @@ void init_mlx(t_game *game)
     init_textures(game);
     mlx_image_to_window(game->mlx, game->b, 0, 0);
 }
-void square(t_game *game, t_board *temp, mlx_texture_t *t, int i)
+void square(t_game *game, t_board *temp, mlx_texture_t *t)
 {
     temp->img = mlx_new_image(game->mlx, 80, 80);
     temp->img = mlx_texture_to_image(game->mlx, t);
     mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
-    game->black->value = i;
 }
 mlx_texture_t *find_img(t_img *img, int id)
 {
@@ -367,21 +368,21 @@ void init_starting_pos(t_game *game)
     t_board *temp = game->board;
 
     game->selected = 0;
-    square(game, temp, find_img(game->img, -2), 5);
+    square(game, temp, find_img(game->img, -2));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -3), 3);
+    square(game, temp, find_img(game->img, -3));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -4), 3);
+    square(game, temp, find_img(game->img, -4));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -5), 9);
+    square(game, temp, find_img(game->img, -5));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -6), 50);
+    square(game, temp, find_img(game->img, -6));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -4), 3);
+    square(game, temp, find_img(game->img, -4));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -3), 3);
+    square(game, temp, find_img(game->img, -3));
     temp = temp->next;
-    square(game, temp, find_img(game->img, -2), 5);
+    square(game, temp, find_img(game->img, -2));
     temp = temp->next;
     while(temp->square / 10 == 7)
     {
@@ -401,21 +402,21 @@ void init_starting_pos(t_game *game)
         game->white->value = 1;
         temp = temp->next;
     }
-    square(game, temp, find_img(game->img, 2), 5);
+    square(game, temp, find_img(game->img, 2));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 3), 3);
+    square(game, temp, find_img(game->img, 3));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 4), 3);
+    square(game, temp, find_img(game->img, 4));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 5), 9);
+    square(game, temp, find_img(game->img, 5));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 6), 50);
+    square(game, temp, find_img(game->img, 6));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 4), 3);
+    square(game, temp, find_img(game->img, 4));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 3), 3);
+    square(game, temp, find_img(game->img, 3));
     temp = temp->next;
-    square(game, temp, find_img(game->img, 2), 5);
+    square(game, temp, find_img(game->img, 2));
     temp = temp->next;
 }
 void init_game(t_game *game)

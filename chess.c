@@ -5,7 +5,7 @@ void test(void *param)
     t_game *game = param;
     if(mlx_is_key_down(game->mlx, MLX_KEY_Q))
     {
-        fill_move(game, game->white, 1);
+        fill_move(game, game->white);
         t_player *temp = game->white;
         t_move *temp2;
 
@@ -13,10 +13,7 @@ void test(void *param)
         {
             temp2 = temp->moves;
             while(temp2->close)
-            {
-                printf("from %d to %d piece %d\n", temp2->from->square, temp2->to->square, temp->piece);
                 temp2 = temp2->next;
-            }
             temp = temp->next;
         }
     }
@@ -35,6 +32,8 @@ int main(int ac, char **av)
         game->gamemode = 1;
     game->turn = 0;
     game->check = 0;
+    game->locked = 0;
+    game->pass = 0;
     init_game(game);
     mlx_cursor_hook(game->mlx, &mouse, game);
     mlx_mouse_hook(game->mlx, &click, game);
