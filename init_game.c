@@ -212,6 +212,7 @@ void init_player(t_game *game)
     t_board *board = game->board;
     temp->piece = board->piece;
     temp->pos = board;
+    temp->m = 0;
     board = board->next;
     while(i++ < 15)
     {
@@ -231,6 +232,7 @@ void init_player(t_game *game)
     temp = game->white;
     temp->piece = board->piece;
     temp->pos = board;
+    temp->m = 0;
     board = board->next;
     while(i++ < 15)
     {
@@ -419,6 +421,25 @@ void init_starting_pos(t_game *game)
     square(game, temp, find_img(game->img, 2));
     temp = temp->next;
 }
+void init_pass_pawn(t_game *game)
+{
+    t_board *temp = game->board;
+    int i = 0;
+    while(temp->square / 10 != 6)
+        temp = temp->next;
+    while(temp->square / 10 == 6)
+    {
+        game->passed[i++] = temp;
+        temp = temp->next;
+    }
+    while(temp->square / 10 != 3)
+        temp = temp->next;
+    while(temp->square / 10 == 3)
+    {
+        game->passed[i++] = temp;
+        temp = temp->next;
+    }
+}
 void init_game(t_game *game)
 {
     init_board(game);
@@ -431,4 +452,5 @@ void init_game(t_game *game)
     init_move(game);
     init_mlx(game);
     init_starting_pos(game);
+    init_pass_pawn(game);
 }

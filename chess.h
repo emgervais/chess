@@ -54,6 +54,7 @@ typedef struct s_game
 {
     int x;
     int y;
+    t_move *saved;
     mlx_image_t *b;
     mlx_image_t *select;
     mlx_texture_t *sel;
@@ -64,12 +65,14 @@ typedef struct s_game
     t_player *black;
     t_img   *img;
     mlx_t *mlx;
+    t_board *passed[16];
     int turn;
     int selected;
     int check;
     int gamemode;
     int locked;
     int pass;
+    int castle;
     mlx_image_t *promo;
 }   t_game;
 
@@ -77,7 +80,7 @@ void init_game(t_game *game);
 mlx_texture_t *find_img(t_img *img, int id);
 void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param);
 void mouse(double xpos, double ypos, void* param);
-int is_valid(t_board *from, t_board *to, t_game *game, int first);
+int is_valid(t_board *from, t_board *to, t_game *game, int first, int once);
 void fill_move(t_game *game, t_player *player);
 int how_many_moves(t_player *player);
 t_move *choose_move_rand(t_player *player, int move);
@@ -90,3 +93,4 @@ t_board *find_king(t_game *game, int turn);
 void init_promo(t_game *game, t_board *current);
 int is_promo(t_game *game, t_board *from, t_board *to);
 void square(t_game *game, t_board *temp, mlx_texture_t *t);
+int pass_pawn(t_game *game, t_board *from, t_board *to);

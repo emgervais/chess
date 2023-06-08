@@ -5,28 +5,28 @@ void init_promo(t_game *game, t_board *current)
     t_player *player = game->white;
     if(game->turn == 1)
     {
-        player = game->white;
+        player = game->black;
         i = -1;
     }
-    if((game->x < 50 && game->x >= 0) && (game->y < 50 && game->y >= 0))
+    if((game->x < game->to->x + 40 && game->x >= game->to->x - 10) && (game->y < game->to->y + 40 && game->y >= game->to->y - 10))
     {
         square(game, current, find_img(game->img, 4 * i));
         game->from->piece = 0;
         game->to->piece = 4 * i;
     }
-    else if((game->x < 100 && game->x >= 50) && (game->y < 50 && game->y >= 0))
+    else if((game->x < game->to->x + 90 && game->x >= game->to->x + 40) && (game->y < game->to->y + 40 && game->y >= game->to->y - 10))
     {
         game->from->piece = 0;
         game->to->piece = 3 * i;
         square(game, current, find_img(game->img, 3 * i));
     }
-    else if((game->x < 50 && game->x >= 0) && (game->y < 100 && game->y >= 50))
+    else if((game->x < game->to->x + 40 && game->x >= game->to->x - 10) && (game->y < game->to->y + 90 && game->y >= game->to->y + 40))
     {
         game->from->piece = 0;
         game->to->piece = 5 * i;
         square(game, current, find_img(game->img, 5 * i));
     }
-    else if((game->x < 100 && game->x >= 50) && (game->y < 100 && game->y >= 50))
+    else if((game->x < game->to->x + 90 && game->x >= game->to->x + 40) && (game->y < game->to->y + 90 && game->y >= game->to->y + 40))
     {
         game->from->piece = 0;
         game->to->piece = 2 * i;
@@ -53,7 +53,52 @@ int pawn_attack(t_game *game, t_board *from, t_board *to)
         return (1);
     return (0);
 }
-int pawn(t_game *game, t_board *from, t_board *to)
+int check_pass(t_game *game, t_board *to)
+{
+    int i = 0;
+
+    while(i < 16)
+    {
+        if(game->passed[i++] == to)
+            return (1);
+    }
+    return (0);
+}
+int pass_pawn(t_game *game, t_board *from, t_board *to)
+{
+    t_player *player = game->black;
+    if(!from || !to)
+        return (0);
+    if(from->piece == 1)
+    {
+        if(((to == from->diagonw && from->diagonw->piece == 0) || (to == from->diagone && from->diagone->piece == 0)) && from->square / 10 == 5 && to->down->piece == -1)
+        {
+            while(player->pos != to->down)
+                player = player->next;
+            if(player->m == 1)
+            {
+                if(check_pass(game, to))
+                    return(1);
+            }
+        }
+    }
+    else if(from->piece == -1)
+    {
+        player = game->white;
+        if(((to == from->diagosw && from->diagosw->piece == 0) || (to == from->diagose && from->diagose->piece == 0)) && from->square / 10 == 4 && to->up->piece == 1)
+        {
+            while(player->pos != to->up)
+                player = player->next;
+            if(player->m == 1)
+            {
+                if(check_pass(game, to))
+                    return(1);
+            }
+        }
+    }
+    return (0);
+}
+int pawn(t_game *game, t_board *from, t_board *to, int first)
 {
     t_board *temp = from;
     t_player *player = game->black;
@@ -64,15 +109,11 @@ int pawn(t_game *game, t_board *from, t_board *to)
             return (1);
         else if((to == temp->diagonw && temp->diagonw->piece < 0) || (to == temp->diagone && temp->diagone->piece < 0))
             return (1);
-        else if(((to == temp->diagonw && temp->diagonw->piece == 0) || (to == temp->diagone && temp->diagone->piece == 0)) && from->square / 10 == 5 && to->down->piece == -1)
+        else if(pass_pawn(game, from, to))
         {
-            while(player->pos != to->down)
-                player = player->next;
-            if(player->m == 1)
-            {
-                game->pass = 1;
-                return(1);
-            }
+            game->saved->to = to;
+            game->saved->from = from;
+            return(1);
         }
     }
     else
@@ -82,16 +123,9 @@ int pawn(t_game *game, t_board *from, t_board *to)
             return (1);
         else if((to == temp->diagosw && temp->diagosw->piece > 0) || (to == temp->diagose && temp->diagose->piece > 0))
             return (1);
-        else if(((to == temp->diagosw && temp->diagosw->piece == 0) || (to == temp->diagose && temp->diagose->piece == 0)) && from->square / 10 == 4 && to->up->piece == 1)
+        else if(pass_pawn(game, from, to))
         {
-            while(player->pos != to->up)
-                player = player->next;
-            printf("m : %d\n", player->m);
-            if(player->m == 1)
-            {
-                game->pass = 1;
-                return(1);
-            }
+            return(1);
         }
     }
     return (0);
@@ -202,7 +236,34 @@ int knight(t_game *game, t_board *from, t_board *to)
     }
     return (0);
 }
-int king(t_game *game, t_board *from, t_board *to)
+
+int castle(t_game *game, t_board *from, t_board *to)
+{
+    t_player *player = game->white;
+    if(game->turn)
+        player = game->black;
+    t_player *hold = player;
+    while(abs(player->piece) != 6)
+        player = player->next;
+    if(player->m)
+        return(0);
+    player = hold;
+    while(player && (player->pos->square % 10 != 8 || abs(player->piece) != 2))
+        player = player->next;
+    if(!player || !from->right)
+        return (0);
+    if(to == from->right->right && !from->right->piece && !from->right->right->piece && !player->m && !is_attacked(game, from, from->piece) && !is_attacked(game, from->right, from->piece) && !is_attacked(game, from->right->right, from->piece))
+        return (1);
+    player = hold;
+    while(player && (player->pos->square % 10 != 1 || abs(player->piece) != 2))
+        player = player->next;
+    if(!player || !from->left)
+        return (0);
+    if(from->left->left == to && !from->left->piece && !from->left->left->piece && !from->left->left->left->piece && !player->m && !is_attacked(game, from, from->piece) && !is_attacked(game, from->left, from->piece) && !is_attacked(game, from->left->left, from->piece))
+        return (1);
+    return (0);
+}
+int king(t_game *game, t_board *from, t_board *to, int first)
 {
     t_board *temp = from;
     if(((from->piece < 0 && to->piece < 0) || (from->piece > 0 && to->piece > 0)))
@@ -224,6 +285,11 @@ int king(t_game *game, t_board *from, t_board *to)
         temp = from->diagosw;
     if(temp == to)
         return (1);
+    if(first && castle(game, from, to))
+    {
+        game->castle = 1;
+        return(1);
+    }
     return (0);
 }
 int is_attacked(t_game *game, t_board *current, int piece)
@@ -247,7 +313,7 @@ int is_attacked(t_game *game, t_board *current, int piece)
         }
         else if(temp->piece)
         {
-            if (is_valid(temp, current, game, 0))
+            if (is_valid(temp, current, game, 0, 0))
             {
                 current->piece = hold;
                 return (1);
@@ -283,7 +349,7 @@ int simulate_move(t_game *game, t_board *from, t_board *to)
     to->piece = hold;
     return (0);
 }
-int is_valid(t_board *from, t_board *to, t_game *game, int first)
+int is_valid(t_board *from, t_board *to, t_game *game, int first, int once)
 {
     if((from->piece > 0 && to->piece > 0) || (from->piece < 0 && to->piece < 0))
         return (0);
@@ -292,7 +358,7 @@ int is_valid(t_board *from, t_board *to, t_game *game, int first)
     else if(first && simulate_move(game, from, to))
         return (0);
     else if(abs(from->piece) == 1)
-        return(pawn(game, from, to));
+        return(pawn(game, from, to, once));
     else if(abs(from->piece) == 2)
         return(tower(game, from, to));
     else if(abs(from->piece) == 3)
@@ -302,7 +368,7 @@ int is_valid(t_board *from, t_board *to, t_game *game, int first)
     else if(abs(from->piece) == 5 && (tower(game, from, to) || bishop(game, from, to)))
         return (1);
     else 
-        return(king(game, from, to));
+        return(king(game, from, to, once));
 }
 t_board *find_square(t_game *game, int pos)
 {
@@ -330,7 +396,7 @@ void fill_move(t_game *game, t_player *player)
                     temp2 = temp2->next;
                 if(!temp2)
                     break;
-                if(is_valid(temp->pos, temp2, game, 1))
+                if(is_valid(temp->pos, temp2, game, 1, 0))
                 {
                     if(temp2->piece)
                         temp3->attack = 1;
@@ -388,6 +454,7 @@ int how_many_moves(t_player *player)
         }
         temp = temp->next;
     }
+    printf("count %d\n", count);
     return (count);
 }
 
@@ -396,6 +463,7 @@ t_move *choose_move_rand(t_player *player, int move)
     t_player *temp = player;
     t_move *temp2;
 
+    printf("chosen %d\n", move);
     while(temp)
     {
         if(!temp->piece)
@@ -405,9 +473,9 @@ t_move *choose_move_rand(t_player *player, int move)
         temp2 = temp->moves;
         while(temp2->close)
         {
-            move--;
             if(!move)
                 return(temp2);
+            move--;
             temp2 = temp2->next;
         }
         temp = temp->next;

@@ -70,22 +70,57 @@ void update_pos(t_game *game, t_board *from, t_board *to, int turn)
     t_player *player = game->black;
     t_player *player2 = game->white;
     t_board *temp = to->up;
+    int tower = -2;
     if(!turn)
     {
+        tower = 2;
         temp = to->down;
         player = game->white;
         player2 = game->black;
     }
+    t_player *hold = player;
     while(player->pos != from)
         player = player->next;
-    if(game->pass)
+    if(pass_pawn(game, from, to))
     {
         while(player2->pos != temp)
             player2 = player2->next;
         player2->piece = 0;
         temp->piece = 0;
-        game->pass = 0;
         mlx_delete_image(game->mlx, temp->img);
+    }
+    else if(pass_pawn(game, game->saved->from, game->saved->to))
+    {
+        int i = 0;
+        while(game->passed[i] != game->saved->to)
+            i++;
+        game->passed[i] = NULL;
+    }
+    if(game->castle)
+    {
+        if(to == from->right->right)
+        {
+            while(hold->pos->square % 10 != 8 || hold->piece != tower)
+                hold = hold->next;
+            mlx_delete_image(game->mlx, hold->pos->img);
+            hold->pos->piece = 0;
+            hold->pos = to->left;
+            hold->pos->img = mlx_texture_to_image(game->mlx, find_img(game->img, tower));
+            mlx_image_to_window(game->mlx, hold->pos->img, hold->pos->x, hold->pos->y);
+            hold->pos->piece = tower;
+        }
+        else
+        {
+            while(hold->pos->square % 10 != 1 || hold->piece != tower)
+                hold = hold->next;
+            mlx_delete_image(game->mlx, hold->pos->img);
+            hold->pos->piece = 0;
+            hold->pos = to->right;
+            hold->pos->img = mlx_texture_to_image(game->mlx, find_img(game->img, tower));
+            mlx_image_to_window(game->mlx, hold->pos->img, hold->pos->x, hold->pos->y);
+            hold->pos->piece = tower;
+        }
+        game->castle = 0;
     }
     if((from->piece > 0 && to->piece < 0) || (from->piece < 0 && to->piece > 0))
     {
@@ -98,6 +133,35 @@ void update_pos(t_game *game, t_board *from, t_board *to, int turn)
     player->piece = to->piece;
     player->pos = to;
     player->m++;
+    game->saved->to = NULL;
+    game->saved->from = NULL;
+}
+int checkmate(t_game *game, t_player *player)
+{
+    t_player *temp = player;
+    t_move *moves;
+    int i = 0;
+    fill_move(game, player);
+    while(temp)
+    {
+        while(!temp->piece)
+            temp = temp->next;
+        if(!temp)
+            break;
+        moves = temp->moves;
+        while(moves->close)
+        {
+            i++;
+            moves = moves->next;
+        }
+        temp = temp->next;
+    }
+    if(!i && is_attacked(game, find_king(game, game->turn), find_king(game, game->turn)->piece))
+        return (1);
+    else if(!i)
+        return(1);
+    clear_move(player);
+    return (0);
 }
 void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param)
 {
@@ -118,9 +182,10 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
             while(sel->square != game->selected)
                 sel = sel->next;
             game->from = sel;
-            if(is_valid(sel, temp, game, 1))
+            if(is_valid(sel, temp, game, 1, 1))
             {
                 mlx_delete_image(game->mlx, game->select);
+                game->selected = 0;
                 if(!game->turn)
                 {
                     if(is_enemy(game, 0, temp))
@@ -129,7 +194,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     {
                         mlx_texture_t *text = mlx_load_png("./img/promo.png");
                         game->promo = mlx_texture_to_image(game->mlx, text);
-                        mlx_image_to_window(game->mlx, game->promo, 0, 0);
+                        mlx_image_to_window(game->mlx, game->promo, temp->x - 10, temp->y - 10); 
                         game->locked = 1;
                         mlx_delete_texture(text);
                         return;
@@ -140,7 +205,11 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
                     update_pos(game, sel, temp, 0);
                     game->turn = 1;
-                    game->selected = 0;
+                    if(checkmate(game, game->black))
+                    {
+                        printf("white won\n");
+                        mlx_close_window(game->mlx);
+                    }
                 }
                 else
                 {
@@ -148,6 +217,15 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     {
                         if(temp->img && is_enemy(game, 1, temp))
                             mlx_delete_image(game->mlx, temp->img);
+                    if(is_promo(game, sel, temp))
+                    {
+                        mlx_texture_t *text = mlx_load_png("./img/promo.png");
+                        game->promo = mlx_texture_to_image(game->mlx, text);
+                        mlx_image_to_window(game->mlx, game->promo, temp->x - 10, temp->y - 10); 
+                        game->locked = 1;
+                        mlx_delete_texture(text);
+                        return;
+                    }
                         mlx_delete_image(game->mlx, sel->img);
                         temp->img = mlx_new_image(game->mlx, 80, 80);
                         temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
@@ -155,6 +233,11 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                         update_pos(game, sel, temp, 1);
                         game->selected = 0;
                         game->turn = 0;
+                        if(checkmate(game, game->white))
+                        {
+                            printf("black won\n");
+                            mlx_close_window(game->mlx);
+                        }
                     }
                 }
             } 
@@ -171,12 +254,11 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                 temp4 = temp4->next;
             game->selected = temp4->square;
         }
-        else if(game->locked && game->x / 100 * 100 == 0 && game->y / 100 * 100 == 0 && button == MLX_MOUSE_BUTTON_LEFT && action == 0)
+        else if(game->locked && game->x / 100 * 100 == game->to->x - 10 && game->y / 100 * 100 == game->to->y - 10 && button == MLX_MOUSE_BUTTON_LEFT && action == 0)
         {
             init_promo(game, game->to);
             mlx_delete_image(game->mlx, game->promo);
-            mlx_delete_image(game->mlx, game->from->img);//update pos
-
+            mlx_delete_image(game->mlx, game->from->img);
             game->locked = 0;
             game->turn = !game->turn;
         }

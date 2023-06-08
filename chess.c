@@ -34,6 +34,10 @@ int main(int ac, char **av)
     game->check = 0;
     game->locked = 0;
     game->pass = 0;
+    game->castle = 0;
+    game->saved = malloc(sizeof(t_move));
+    game->saved->to = NULL;
+    game->saved->from = NULL;
     init_game(game);
     mlx_cursor_hook(game->mlx, &mouse, game);
     mlx_mouse_hook(game->mlx, &click, game);
