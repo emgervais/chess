@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 #include "./MLX42/include/MLX42/MLX42.h"
 
 typedef struct s_log
 {
     int m;
+    char *temp;
     char *move;
-    struct s_log *next;
 } t_log;
 
 typedef struct s_board
@@ -95,6 +96,7 @@ int how_many_moves(t_player *player);
 t_move *choose_move_rand(t_player *player, int move);
 void apply_move(t_game *game, t_move *move);
 void clear_move(t_player *player);
+int simulate_move2(t_game *game, t_board *from, t_board *to);
 int is_enemy(t_game *game, int turn, t_board *pos);
 void update_pos(t_game *game, t_board *from, t_board *to, int turn);
 int is_attacked(t_game *game, t_board *current, int piece);
@@ -103,3 +105,4 @@ void init_promo(t_game *game, t_board *current);
 int is_promo(t_game *game, t_board *from, t_board *to);
 void square(t_game *game, t_board *temp, mlx_texture_t *t);
 int pass_pawn(t_game *game, t_board *from, t_board *to);
+char	*ft_itoa(int n);

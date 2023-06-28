@@ -65,6 +65,7 @@ t_board *find_king(t_game *game, int turn)
         temp = temp->next;
     return (temp->pos);
 }
+
 void update_pos(t_game *game, t_board *from, t_board *to, int turn)
 {
     t_player *player = game->black;
@@ -164,52 +165,91 @@ int checkmate(t_game *game, t_player *player)
     return (0);
 }
 
-char *translate(t_board *from, t_board *to)
+int check_other(t_board *from, t_board *to, t_game *game)
 {
-    char *move = malloc(sizeof(char) * 4);
-    char c = (to->square % 10) + 96;
-    if(from->piece == 1 || from->piece == -1)
+    t_player *player = game->black;
+    if(!game->turn)
+        player = game->white;
+    while(player)
     {
-        move[2] = '\0';
-        move[0] = c;
-        move[1] = to->square / 10 + 48;
+        if(player->piece == from->piece && player->pos != from && is_valid(player->pos, to, game, 0, 0))
+                return(1);
+        player = player->next;
     }
-    else
-    {
-        if(from->piece == 2 || from->piece == -2)
-            move[0] = 'R';
-        else if(from->piece == 3 || from->piece == -3)
-            move[0] = 'N';
-        else if(from->piece == 4 || from->piece == -4)
-            move[0] = 'B';
-        else if(from->piece == 5 || from->piece == -5)
-            move[0] = 'Q';
-        else 
-            move[0] = 'K';
-        move[2] = to->square / 10 + 48;
-        move[1] = c;
-        move[3] = '\0';
-    }
+    return (0);
+}
+char *translate(t_board *from, t_board *to, int f, t_game *game, char *move)
+{
+    char letter[5] = {'R', 'N', 'B', 'Q', 'K'};
+    char *num = ft_itoa(game->turn_num);
+    int p = abs(from->piece);
+    int l = 0;
+    int i = 0;
+        if(!f)
+        {
+            while(num[l])
+                move[i++] = num[l++];
+            move[i++] = '.';
+        }
+        if(p == 6 && (to == from->left->left || to == from->right->right))
+        {
+            move[i++] = 'O';
+            move[i++] = '-';
+            move[i++] = 'O';
+            if(to == from->left->left)
+            {
+                move[i++] = '-';
+                move[i++] = 'O';
+            }
+        }
+        else
+        {
+            if(p != 1)
+                move[i++] = letter[p - 2];
+        //add place
+            if(check_other(from, to, game))
+                move[i++] = from->square % 10 + 96;
+            if((from->piece > 0 && to->piece < 0) || (from->piece < 0 && to->piece > 0))
+                move[i++] = 'x';
+            move[i++] = to->square % 10 + 96;
+            move[i++] = to->square / 10 + 48;
+        }
+        if(simulate_move2(game, from, to))
+            move[i++] = '+';
+        move[i++] = ' ';
+        move[i++] = '\0';
     return (move);
 }
+char *strjoin(const char* s1, const char* s2)
+{
+    char* result = malloc(strlen(s1) + strlen(s2) + 1);
+
+    if (result)
+    {
+        strcpy(result, s1);
+        strcat(result, s2);
+    }
+
+    return (result);
+}
+
 void enter_log(t_board *from, t_board *to, t_game *game)
 {
     if(!game->log)
     {
         game->log = malloc(sizeof(t_log));
-        game->log->next = NULL;
+        game->log->temp = malloc(sizeof(char) * 10);
+        game->log->move = malloc(sizeof(char) * 1000);
         game->log->m = game->turn_num;
-        game->log->move = translate(from, to);
+        translate(from, to, 0, game, game->log->move);
         return ;
     }
-    t_log *temp = game->log;
-    while(temp->next)
-        temp = temp->next;
-    t_log *new = malloc(sizeof(t_log));
-    new->m = game->turn_num;
-    new->move = translate(from, to);
-    new->next = NULL;
-    temp->next = new;
+    int f = 0;
+    if(game->turn_num == game->log->m)
+        f = 1;
+    game->log->move = strjoin(game->log->move, translate(from, to, f, game, game->log->temp));
+    game->log->m = game->turn_num;
+    printf("%s\n", game->log->move);
 }
 
 void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param)

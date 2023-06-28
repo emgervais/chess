@@ -324,6 +324,41 @@ int is_attacked(t_game *game, t_board *current, int piece)
     current->piece = hold;
     return (0);
 }
+t_board *find_king2(t_game *game, int turn)
+{
+    t_player *temp = game->black;
+
+    if(!turn)
+        temp = game->white;
+    while(abs(temp->piece) != 6)
+        temp = temp->next;
+    return (temp->pos);
+}
+
+int simulate_move2(t_game *game, t_board *from, t_board *to)
+{
+    int hold = to->piece;
+    to->piece = from->piece;
+    t_player *player = game->white;
+    int turn = 1;
+    if(game->turn)
+    {
+        player = game->black;
+        turn = 0;
+    }
+    while(player->pos != from)
+        player = player->next;
+    player->pos = to;
+    if(is_attacked(game, find_king2(game, turn), find_king2(game, turn)->piece))
+    {
+        to->piece = hold;
+        player->pos = from;
+        return (1);
+    }
+    player->pos = from;
+    to->piece = hold;
+    return (0);
+}
 
 int simulate_move(t_game *game, t_board *from, t_board *to)
 {
