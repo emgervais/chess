@@ -163,6 +163,55 @@ int checkmate(t_game *game, t_player *player)
     clear_move(player);
     return (0);
 }
+
+char *translate(t_board *from, t_board *to)
+{
+    char *move = malloc(sizeof(char) * 4);
+    char c = (to->square % 10) + 96;
+    if(from->piece == 1 || from->piece == -1)
+    {
+        move[2] = '\0';
+        move[0] = c;
+        move[1] = to->square / 10 + 48;
+    }
+    else
+    {
+        if(from->piece == 2 || from->piece == -2)
+            move[0] = 'R';
+        else if(from->piece == 3 || from->piece == -3)
+            move[0] = 'N';
+        else if(from->piece == 4 || from->piece == -4)
+            move[0] = 'B';
+        else if(from->piece == 5 || from->piece == -5)
+            move[0] = 'Q';
+        else 
+            move[0] = 'K';
+        move[2] = to->square / 10 + 48;
+        move[1] = c;
+        move[3] = '\0';
+    }
+    return (move);
+}
+void enter_log(t_board *from, t_board *to, t_game *game)
+{
+    if(!game->log)
+    {
+        game->log = malloc(sizeof(t_log));
+        game->log->next = NULL;
+        game->log->m = game->turn_num;
+        game->log->move = translate(from, to);
+        return ;
+    }
+    t_log *temp = game->log;
+    while(temp->next)
+        temp = temp->next;
+    t_log *new = malloc(sizeof(t_log));
+    new->m = game->turn_num;
+    new->move = translate(from, to);
+    new->next = NULL;
+    temp->next = new;
+}
+
 void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param)
 {
     t_game *game = param;
@@ -203,6 +252,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     temp->img = mlx_new_image(game->mlx, 80, 80);
                     temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
                     mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
+                    enter_log(sel, temp, game);
                     update_pos(game, sel, temp, 0);
                     game->turn = 1;
                     if(checkmate(game, game->black))
@@ -230,6 +280,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                         temp->img = mlx_new_image(game->mlx, 80, 80);
                         temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
                         mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
+                        enter_log(sel, temp, game);
                         update_pos(game, sel, temp, 1);
                         game->selected = 0;
                         game->turn = 0;
@@ -238,6 +289,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                             printf("black won\n");
                             mlx_close_window(game->mlx);
                         }
+                        game->turn_num++;
                     }
                 }
             } 

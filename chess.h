@@ -3,6 +3,13 @@
 #include <math.h>
 #include "./MLX42/include/MLX42/MLX42.h"
 
+typedef struct s_log
+{
+    int m;
+    char *move;
+    struct s_log *next;
+} t_log;
+
 typedef struct s_board
 {
     mlx_image_t *img;
@@ -54,6 +61,7 @@ typedef struct s_game
 {
     int x;
     int y;
+    t_log *log;
     t_move *saved;
     mlx_image_t *b;
     mlx_image_t *select;
@@ -66,6 +74,7 @@ typedef struct s_game
     t_img   *img;
     mlx_t *mlx;
     t_board *passed[16];
+    int turn_num;
     int turn;
     int selected;
     int check;

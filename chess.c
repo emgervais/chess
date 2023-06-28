@@ -35,6 +35,8 @@ int main(int ac, char **av)
     game->locked = 0;
     game->pass = 0;
     game->castle = 0;
+    game->turn_num = 1;
+    game->log = NULL;
     game->saved = malloc(sizeof(t_move));
     game->saved->to = NULL;
     game->saved->from = NULL;
