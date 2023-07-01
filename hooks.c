@@ -206,11 +206,14 @@ char *translate(t_board *from, t_board *to, int f, t_game *game, char *move)
         {
             if(p != 1)
                 move[i++] = letter[p - 2];
-        //add place
             if(check_other(from, to, game))
                 move[i++] = from->square % 10 + 96;
             if((from->piece > 0 && to->piece < 0) || (from->piece < 0 && to->piece > 0))
+            {
+                if(p == 1)
+                    move[i++] = from->square % 10 + 96;
                 move[i++] = 'x';
+            }
             move[i++] = to->square % 10 + 96;
             move[i++] = to->square / 10 + 48;
         }

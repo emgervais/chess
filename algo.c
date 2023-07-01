@@ -489,7 +489,6 @@ int how_many_moves(t_player *player)
         }
         temp = temp->next;
     }
-    printf("count %d\n", count);
     return (count);
 }
 
@@ -498,7 +497,6 @@ t_move *choose_move_rand(t_player *player, int move)
     t_player *temp = player;
     t_move *temp2;
 
-    printf("chosen %d\n", move);
     while(temp)
     {
         if(!temp->piece)
