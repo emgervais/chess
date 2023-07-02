@@ -178,7 +178,7 @@ int check_other(t_board *from, t_board *to, t_game *game)
     }
     return (0);
 }
-char *translate(t_board *from, t_board *to, int f, t_game *game, char *move)
+char *translate(t_board *from, t_board *to, int f, t_game *game, char *move, int promote)
 {
     char letter[5] = {'R', 'N', 'B', 'Q', 'K'};
     char *num = ft_itoa(game->turn_num);
@@ -208,6 +208,11 @@ char *translate(t_board *from, t_board *to, int f, t_game *game, char *move)
                 move[i++] = letter[p - 2];
             if(check_other(from, to, game))
                 move[i++] = from->square % 10 + 96;
+            if(promote && (to == from->diagone || to == from->diagonw || to == from->diagose || to == from->diagosw))
+            {
+                move[i++] = from->square % 10 + 96;
+                move[i++] = 'x';
+            }
             if((from->piece > 0 && to->piece < 0) || (from->piece < 0 && to->piece > 0))
             {
                 if(p == 1)
@@ -216,8 +221,13 @@ char *translate(t_board *from, t_board *to, int f, t_game *game, char *move)
             }
             move[i++] = to->square % 10 + 96;
             move[i++] = to->square / 10 + 48;
+            if(promote)
+            {
+                move[i++] = '=';
+                move[i++] = letter[abs(promote) - 2];
+            }
         }
-        if(simulate_move2(game, from, to))
+        if(simulate_move2(game, from, to, promote))
             move[i++] = '+';
         move[i++] = ' ';
         move[i++] = '\0';
@@ -236,21 +246,21 @@ char *strjoin(const char* s1, const char* s2)
     return (result);
 }
 
-void enter_log(t_board *from, t_board *to, t_game *game)
+void enter_log(t_board *from, t_board *to, t_game *game, int promote)
 {
     if(!game->log)
     {
         game->log = malloc(sizeof(t_log));
-        game->log->temp = malloc(sizeof(char) * 10);
-        game->log->move = malloc(sizeof(char) * 1000);
+        game->log->temp = malloc(sizeof(char) * 12);
+        game->log->move = malloc(sizeof(char) * 10000);
         game->log->m = game->turn_num;
-        translate(from, to, 0, game, game->log->move);
+        translate(from, to, 0, game, game->log->move, promote);
         return ;
     }
     int f = 0;
     if(game->turn_num == game->log->m)
         f = 1;
-    game->log->move = strjoin(game->log->move, translate(from, to, f, game, game->log->temp));
+    game->log->move = strjoin(game->log->move, translate(from, to, f, game, game->log->temp, promote));
     game->log->m = game->turn_num;
     printf("%s\n", game->log->move);
 }
@@ -295,7 +305,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                     temp->img = mlx_new_image(game->mlx, 80, 80);
                     temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
                     mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
-                    enter_log(sel, temp, game);
+                    enter_log(sel, temp, game, 0);
                     update_pos(game, sel, temp, 0);
                     game->turn = 1;
                     if(checkmate(game, game->black))
@@ -323,7 +333,7 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
                         temp->img = mlx_new_image(game->mlx, 80, 80);
                         temp->img = mlx_texture_to_image(game->mlx, find_img(game->img, sel->piece));
                         mlx_image_to_window(game->mlx, temp->img, temp->x, temp->y);
-                        enter_log(sel, temp, game);
+                        enter_log(sel, temp, game, 0);
                         update_pos(game, sel, temp, 1);
                         game->selected = 0;
                         game->turn = 0;
@@ -359,10 +369,17 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
         }
         if(!game->gamemode && game->turn == 1 && !game->locked)
         {
-            srand(NULL);
-            fill_move(game, game->black);
-            apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black)))));
-            clear_move(game->black);
+            t_move *mv = check_open(game);
+            if(!mv)
+            {
+                srand(NULL);
+                fill_move(game, game->black);
+                clear_move(game->black);
+                apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black)))));
+            }
+            else
+                apply_move(game, mv);
+            game->turn_num++;
             game->turn = 0;
         }
     }

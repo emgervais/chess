@@ -1,377 +1,377 @@
-1.d4 d6 2.c4 g6 3.Knightc3 Bishopg7 4.e4#Modern.pgn
-1.d4 c5 2.d5 e5#SemiBenoni.pgn
-1.d4 Knightf6 2.Bishopg5 Knighte4#Trompowsky2Ne4.pgn
-1.d4 Knightf6 2.Bishopg5 e6#Trompowsky2e6.pgn
-1.d4 Knightf6 2.Bishopg5 d5#TrompowskyOther.pgn
-1.d4 Knightf6 2.Bishopg5 c5#TrompowskyOther.pgn
-1.d4 Knightf6 2.Bishopg5 c6#TrompowskyOther.pgn
-1.d4 Knightf6 2.Knightf3 e6 3.Bishopg5#Torre2e6.pgn
-1.d4 Knightf6 2.Knightf3 g6 3.Bishopg5#Torre2g6.pgn
-1.d4 Knightf6 2.Knightf3 e6 3.Bishopf4#London2e6.pgn
-1.d4 Knightf6 2.Knightf3 g6 3.Bishopf4#London2g6.pgn
-1.d4 Knightf6 2.c4 e6 3.g3 Bishopb4+#Catalan3Bb4.pgn
-1.d4 Knightf6 2.c4 e6 3.g3 c5#Catalan3c5.pgn
-1.d4 Knightf6 2.c4 e6 3.g3 d5 4.Bishopg2 dxc4#CatalanOpen.pgn
-1.d4 Knightf6 2.c4 e6 3.g3 d5 4.Bishopg2 Bishope7 5.Knightf3#CatalanClosed.pgn
-1.d4 Knightf6 2.c4 Knightc6#BlackKnightTango.pgn
-1.d4 Knightf6 2.c4 e5#BudapestGambit.pgn
-1.d4 Knightf6 2.c4 d6#OldIndian.pgn
-1.d4 Knightf6 2.c4 c5 3.d5 e5 4.Knightc3 d6#CzechBenoni.pgn
-1.d4 Knightf6 2.c4 c5 3.d5 b5#BenkoGambit.pgn
-1.d4 Knightf6 2.c4 c5 3.d5 e6 4.Knightc3 exd5 5.cxd5 d6 6.Knightf3#ModernBenoni6Nf3.pgn
-1.d4 Knightf6 2.c4 c5 3.d5 e6 4.Knightc3 exd5 5.cxd5 d6 6.e4#ModernBenoni6e4.pgn
-1.d4 f5 2.c4 Knightf6 3.g3 g6 4.Bishopg2 Bishopg7 5.Knightf3 O-O 6.O-O#DutchLeningrad.pgn
-1.d4 f5 2.c4 Knightf6 3.g3 e6 4.Bishopg2#DutchClassical.pgn
-1.d4 f5 2.c4 Knightf6 3.Knightc3#Dutch3Nc3.pgn
-1.d4 f5 2.Knightc3, Bishopg5, e4#DutchOther.pgn
-1.d4 Knightf6 2.c4 g6 3.g3 d5 4.Bishopg2 Bishopg7 5.Knightf3 O-O 6.O-O#GrunfeldFianchetto.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.Knightf3#Grunfeld4Nf3.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.Bishopf4#GrunfeldOther.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.Bishopg53#GrunfeldOther.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.e3#GrunfeldOther.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.Queenb3#GrunfeldOther.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 d5 4.cxd5 Knightxd5 5.e4 Knightxc3 6.bxc3 Bishopg7#GrunfeldExchange.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 Bishopb4+ 4.Bishopd2#Bogo4Bd2.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 Bishopb4+ 4.Knightbd2#Bogo4Nbd2.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.a3#QID4a3.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.Knightc3#QID4Nc3.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.e3#QID4e3.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.Bishopg5#QIDOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.Bishopf4#QIDOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.g3 Bishopa6#QID4g3-Ba6.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.g3 Bishopb7#QID4g3Other.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightf3 b6 4.g3 Bishopb7 Bishopb4+#QID4g3Other.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Knightf3#Nimzo4Nf3.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.a3#NimzoSaemisch.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Bishopg5#NimzoLeningrad.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.f3#Nimzo4f3.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.g3#NimzoOther4.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenb3#NimzoOther4.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Bishopd2#NimzoOther4.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 O-O#NimzoCl4O-O.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 c5#NimzoCl4c5.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 d5#NimzoClOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 Knightc6#NimzoClOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 b6#NimzoClOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.Queenc2 d6#NimzoClOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 O-O#NimzoRub4O-O.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 c5#NimzoRub4c5.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 d5#NimzoRubOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 b6#NimzoRubOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 Knightc6#NimzoRubOther.pgn
-1.d4 Knightf6 2.c4 e6 3.Knightc3 Bishopb4 4.e3 Bishopxc3+#NimzoRubOther.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Bishope2 O-O 6.Bishopg5#KIDAverbakh.pgn
-1.c4 Knightf6 2.d4 g6 3.g3 Bishopg7 4.Bishopg2 d6 5.Knightf3 O-O#KIDFianchetto.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.f4#KID4pawns.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.f3#KIDSaemisch.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 O-O 6.Bishope2 e5 7.O-O Knightc6#KIDClassical.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 O-O 6.Bishope2 e5 7.d5#KIDPetrosian.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 O-O 6.Bishope2 e5 7.Bishope3#KIDOther7.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 O-O 6.Bishope2 e5 7.dxe5#KIDOther7.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 O-O 6.Bishope2 e5 7.Bishopg5#KIDOther7.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 Bishopg4#KIDOther56.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 Knightbd7#KIDOther56.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 c6#KIDOther56.pgn
-1.d4 Knightf6 2.c4 g6 3.Knightc3 Bishopg7 4.e4 d6 5.Knightf3 c5#KIDOther56.pgn
-1.d4 d5 2.Bishopg5#Hodgson.pgn
-1.d4 d5 2.Knightf3 Knightf6 3.e3#Colle.pgn
-1.d4 d5 2.c4 c5#QGSym-Baltic.pgn
-1.d4 d5 2.c4 Bishopf5#QGSym-Baltic.pgn
-1.d4 d5 2.c4 e5#QG-Albin.pgn
-1.d4 d5 2.c4 Knightc6#QG-Chigorin.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 dxc4#
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Queenc2#SlavOther34.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Queenb3#SlavOther34.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.g3#SlavOther34.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightbd2#SlavOther34.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.cxd5 cxd5 5.Knightc3#SlavExchange.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 a6#Slav4a6.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.e4#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.e3#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.Knighte5#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.g3#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.a4 Bishopg4#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.a4 Knighta6#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.a4 e6#SlavOther5.pgn
-1.d4 d5 2.c4 c6 3.Knightf3 Knightf6 4.Knightc3 dxc4 5.a4 Bishopf5#SlavMain.pgn
-1.d4 d5 2.c4 dxc4 3.e4#QGA3e4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 a6, c5#QGAOther3.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 c5#QGAOther3.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.Knightc3#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.Queena4+#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.e3 Bishopg4#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.e3 a6#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.e3 g6#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.e3 c5#QGAOther4.pgn
-1.d4 d5 2.c4 dxc4 3.Knightf3 Knightf6 4.e3 e6 5.Bishopxc4 c5#QGAMain.pgn
-1.d4 d5 2.c4 e6 3.Knightf3 c5#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 c6 4.e4#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 c6 4.Knightf3 dxc4#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 c6 4.cxd5 exd5#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 Knightbd7#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 Bishopb4#QGDOther34.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 c5#QGDTarrasch.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.cxd5#QGDExchange.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 Bishope7 5.Bishopf4#QGD5Bf4.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 c5 5.e3 Knightc6#SemiTarr5e3-Nc6.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 c5 5.cxd5#SemiTarraschMain.pgn
-1.d4 d5 2.c4 e6 3.Knightf3 Knightf6 4.Knightc3 c6 5.Queenb3#SemiSlavOther5.pgn
-1.d4 d5 2.c4 e6 3.Knightf3 Knightf6 4.Knightc3 c6 5.Bishopf4#SemiSlavOther5.pgn
-1.d4 d5 2.c4 e6 3.Knightf3 Knightf6 4.Knightc3 c6 5.Bishopg5#SemiSlavBotvinnik.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Knightf3 c6 5.e3#SemiSlavMeran.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Bishopg5 Knightbd7#QGDOrthoOther4.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Bishopg5 c5#QGDOrthoOther4.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Bishopg5 Bishopb4#QGDOrthoOther4.pgn
-1.d4 d5 2.c4 e6 3.Knightc3 Knightf6 4.Bishopg5 Bishope7#QGDOrthoMain.pgn
-1.e4 b6#OwenDefense.pgn
-1.e4 Knightc6#NimzoDefense.pgn
-1.e4 d5 2.exd5 Queenxd5 3.Knightc3 Queend6#Scand3Qd6-Qd8.pgn
-1.e4 d5 2.exd5 Queenxd5 3.Knightc3 Queend8#Scand3Qd6-Qd8.pgn
-1.e4 d5 2.exd5 Queenxd5 3.Knightc3 Queena5#Scand2Qxd5-3Qa5.pgn
-1.e4 d5 2.exd5 Knightf6 3.d4#Scand2Nf6-3d4.pgn
-1.e4 d5 2.exd5 Knightf6 3.c4#Scand2Nf6Other.pgn
-1.e4 d5 2.exd5 Knightf6 3.Bishopb5+#Scand2Nf6Other.pgn
-1.e4 d5 2.exd5 Knightf6 3.Knightc3#Scand2Nf6Other.pgn
-1.e4 d5 2.exd5 Knightf6 3.Knightf3#Scand2Nf6Other.pgn
-1.e4 d5 2.exd5 Knightf6 3.Bishopc4#Scand2Nf6Other.pgn
-1.e4 Knightf6 2.Knightc3 d5#Alekhine2Nc3-d5.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.c4#AlekhineOther3.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.Knightc3#AlekhineOther3.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.Knightf3#AlekhineOther3.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.Bishopc4#AlekhineOther3.pgn
-1.e4 Knightf6 2.e5 Knightd5 3. g3#AlekhineOther3.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.d4 d6 4.c4 Knightb6 5.exd6#AlekhineExchange.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.d4 d6 4.c4 Knightb6 5.f4#Alekhine4Pawns.pgn
-1.e4 Knightf6 2.e5 Knightd5 3.d4 d6 4.Knightf3#AlekhineModern.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightf3#Modern3Nf3.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 d6#Modern3Nc3-d6.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 c6#Modern3Nc3-c6.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 c5#Modern3Nc3Other.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 a6#Modern3Nc3Other.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 d5#Modern3Nc3Other.pgn
-1.e4 g6 2.d4 Bishopg7 3.Knightc3 Knightc6#Modern3Nc3Other.pgn
-1.e4 g6 2.d4 Bishopg7 3.c3#ModernOther3.pgn
-1.e4 g6 2.d4 Bishopg7 3.f4#ModernOther3.pgn
-1.e4 g6 2.d4 Bishopg7 3.Bishope3#ModernOther3.pgn
-1.e4 g6 2.d4 Bishopg7 3.Bishopc4#ModernOther3.pgn
-1.e4 d6 2.d4 Knightf6 3.Bishopd3#PircOtherWhite3.pgn
-1.e4 d6 2.d4 Knightf6 3.f32#PircOtherWhite3.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightd2#PircOtherWhite3.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 c6#PircOtherBlack3.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 e5#PircOtherBlack3.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 Knightbd7#PircOtherBlack3.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.f4#PircAustrian.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.Bishope3#PircOtherWhite4.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.Bishopg5#PircOtherWhite4.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.f3#PircOtherWhite4.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.g3#PircOtherWhite4.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.Bishope2#PircOtherWhite4.pgn
-1.e4 d6 2.d4 Knightf6 3.Knightc3 g6 4.Knightf3#PircClassical.pgn
-1.e4 c6 2.c4#Caro-Kann2c4.pgn
-1.e4 c6 2.Knightc3 d5 3.Knightf3#Caro-Kann2Knight.pgn
-1.e4 c6 2.d4 d5 3.exd5 cxd5 4.Bishopd3#Caro-KannEx.pgn
-1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4#Caro-KannPan-Bot.pgn
-1.e4 c6 2.d4 d5 3.e5#Caro-KannAdv.pgn
-1.e4 c6 2.d4 d5 3.Knightc3 dxe4 4.Knightxe4 Knightf6#Caro-Kann4Nf6.pgn
-1.e4 c6 2.d4 d5 3.Knightc3 dxe4 4.Knightxe4 Knightd7#Caro-Kann4Nd7.pgn
-1.e4 c6 2.d4 d5 3.Knightc3 dxe4 4.Knightxe4 Bishopf5#Caro-KannClassic.pgn
-1.e4 e6 2.d3#FrenchKIA.pgn
-1.e4 e6 2.Knightf3#FrenchOther2.pgn
-1.e4 e6 2.Queene2#FrenchOther2.pgn
-1.e4 e6 2.Knightc3#FrenchOther2.pgn
-1.e4 e6 2.b3#FrenchOther2.pgn
-1.e4 e6 2.c4#FrenchOther2.pgn
-1.e4 e6 2.d4 d5 3.exd5#FrenchExchange.pgn
-1.e4 e6 2.d4 d5 3.e5 c5 4.c3#FrenchAdvance.pgn
-1.e4 e6 2.d4 d5 3.Knightd2 Knightc6#FrTarraschOther3.pgn
-1.e4 e6 2.d4 d5 3.Knightd2 Bishope7#FrTarraschOther3.pgn
-1.e4 e6 2.d4 d5 3.Knightd2 a6#FrTarraschOther3.pgn
-1.e4 e6 2.d4 d5 3.Knightd2 c5#FrTarrasch3c5.pgn
-1.e4 e6 2.d4 d5 3.Knightd2 Knightf6#FrTarrasch3Nf6.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 dxe4 4.Knightxe4#FrenchRubinstein.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.Knighte2#FrWinawerOtherW4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.exd5#FrWinawerOtherW4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.Bishopd3#FrWinawerOtherW4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.a3#FrWinawerOtherW4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.e5 Knighte7#FrWinawerOtherB4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.e5  b6#FrWinawerOtherB4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.e5 Queend7#FrWinawerOtherB4.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Bishopb4 4.e5 c5#FrWinawerMain.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Knightf6 4.e5#FrenchSteinitz.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Knightf6 4.Bishopg5 Bishopb4#FrenchMacCutcheon.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Knightf6 4.Bishopg5 dxe4#FrenchBurn.pgn
-1.e4 e6 2.d4 d5 3.Knightc3 Knightf6 4.Bishopg5 Bishope7#FrenchClassical.pgn
-1.e4 c5 2.d3#SicilianMisc2.pgn
-1.e4 c5 2.b3#SicilianMisc2.pgn
-1.e4 c5 2.c4#SicilianMisc2.pgn
-1.e4 c5 2.g3#SicilianMisc2.pgn
-1.e4 c5 2.Knighte2#SicilianMisc2.pgn
-1.e4 c5 2.Bishopc4#SicilianMisc2.pgn
-1.e4 c5 2.b4#SicilianMisc2.pgn
-1.e4 c5 2.f4#Sicilian2f4.pgn
-1.e4 c5 2.d4 cxd4 3.c3#SicilianSmith-Morra.pgn
-1.e4 c5 2.c3 e6#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 d6#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 g6#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 e5#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 b6#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 Knightc6#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 Queena5#SicilianAlapinOther2.pgn
-1.e4 c5 2.c3 Knightf6#SicilianAlapin2Nf6.pgn
-1.e4 c5 2.c3 d5#SicilianAlapin2d5.pgn
-1.e4 c5 2.Knightc3 e6#Sicilian2Nc3-e6.pgn
-1.e4 c5 2.Knightc3 d6#Sicilian2Nc3-d6.pgn
-1.e4 c5 2.Knightc3 Knightc6 3.f4#SicilianGrandPrix.pgn
-1.e4 c5 2.Knightc3 Knightc6 3.Knightf3#SicilianClosedOther3.pgn
-1.e4 c5 2.Knightc3 Knightc6 3.Knightge2#SicilianClosedOther3.pgn
-1.e4 c5 2.Knightc3 Knightc6 3.Bishopb5#SicilianClosedOther3.pgn
-1.e4 c5 2.Knightc3 Knightc6 3.g3#icilianClosedMain.pgn
-1.e4 c5 2.Knightf3 g66#Sicilian2Nf3Other2.pgn
-1.e4 c5 2.Knightf3 a6#Sicilian2Nf3Other2.pgn
-1.e4 c5 2.Knightf3 Knightf6#Sicilian2Nf3Other2.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.Bishopb5#SicilianRossolimo.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Queenb6#Sic2Nc6-4Qc7-4Qb6.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Queenc7#Sic2Nc6-4Qc7-4Qb6.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 e5#SicilianLowenthal.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6#Sicilian2Nc6Other5.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6#Sicilian2Nc6Other5.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Queenb6#Sicilian2Nc6Other5.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 g6#SicilianAccelDragon.pgn
-1.e4 c5 2.Knightf3 Knightc6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 e5 6.Knightdb5 d6#SicilianSveshnikov.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.Bishope23#SicilianKanOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.Bishope3#SicilianKanOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.g3#SicilianKanOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.c4#SicilianKan5c4.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.Knightc3#SicilianKan5Nc3.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 a6 5.Bishopd3#SicilianKan5Bd3.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Bishope3#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Bishope3, Knightxc6, c4, Bishope2, g3#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Knightxc6#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.c4#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Bishope2#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.g3#SicilianTaimanovOther5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Knightb5#SicilianTaimanov5Nb5.pgn
-1.e4 c5 2.Knightf3 e6 3.d4 cxd4 4.Knightxd4 Knightc6 5.Knightc3#SicilianTaimanovMain.pgn
-1.e4 c5 2.Knightf3 d6 3.Bishopb5+#SicilianMoscow.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Queenxd4#Sicilian2d6-4Qxd4.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.g3#SicilianDragonOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.f4#SicilianDragonOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.f3#SicilianDragonOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.Bishopg5#SicilianDragonOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.Bishope2, Bishopc4#SicDragon6Be2-6Bc4.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 g6 6.Bishope3 Bishopg7 7.f3#SicilianDragonYugoslav.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.Bishope2#SicilianClassicalOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.Bishope3#SicilianClassicalOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.f3#SicilianClassicalOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.g3#SicilianClassicalOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.f4#SicilianClassicalOther6.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.Bishopc4#SicilianClassicalSozin.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 Knightc6 6.Bishopg5#SicilianRichter-Rauzer.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 e6#SicilianScheveningen.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.a4#SicilianNajdorf6a4.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.g3#SicilianNajdorf6g3.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.f3#SicilianNajdorf6f3.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.f4#SicilianNajdorf6f4.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.Bishopc4#SicilianNajdorf6Bc4.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.Bishope3#SicilianNajdorf6Be3.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.Bishope2#SicilianNajdorf6Be2.pgn
-1.e4 c5 2.Knightf3 d6 3.d4 cxd4 4.Knightxd4 Knightf6 5.Knightc3 a6 6.Bishopg5#SicilianNajdorf6Bg5.pgn
-1.e4 e5 2.d4 exd4#CenterGame-Danish.pgn
-1.e4 e5 2.Bishopc4#BishopsOpening.pgn
-1.e4 e5 2.f4#KingsGambit.pgn
-1.e4 e5 2.Knightc3#Vienna.pgn
-1.e4 e5 2.Knightf3 d5#Latvian-Elephant.pgn
-1.e4 e5 2.Knightf3 f5#Latvian-Elephant.pgn
-1.e4 e5 2.Knightf3 d6#Philidor.pgn
-1.e4 e5 2.Knightf3 Knightf6 3.Knightc3#PetroffOther3.pgn
-1.e4 e5 2.Knightf3 Knightf6 3.d4#PetroffOther3.pgn
-1.e4 e5 2.Knightf3 Knightf6 3.d3#PetroffOther3.pgn
-1.e4 e5 2.Knightf3 Knightf6 3.Bishopc4#PetroffOther3.pgn
-1.e4 e5 2.Knightf3 Knightf6 3.Knightxe5 d6 4.Knightf3 Knightxe4#PetroffMain.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.c3#Ponziani.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Knightc3 Bishopc5#ThreeKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Knightc3 g6#ThreeKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Knightc3 d6#ThreeKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Knightc3 Bishopb4#ThreeKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Knightc3 Knightf6#FourKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.c3#GoringGambit.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Bishopc4#ScotchGambit.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Queenh4#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Knightxd4#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Queenf6#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Bishopb4+#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 d6#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 g6#ScotchOther4.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Knightf6#Scotch4Nf6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.d4 exd4 4.Knightxd4 Bishopc5#Scotch4Bc5.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopc4 Bishope7#Hungarian.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopc4 Knightf6#TwoKnights.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopc4 Bishopc5#GiuocoPiano.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 d6#RuyLopezOther3.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 Knightd4#RuyLopezOther3.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 g6#RuyLopezOther3.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 Knightge7#RuyLopezOther3.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 Bishopc5#RuyLopezClassical.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 f5#RuyLopezSchliemann.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 Knightf6#RuyLopezBerlin.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopxc6#RuyLopezExchange.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 d6#RuyLopezModSteinitz.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.d3#RuyLopezOther5.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.d4#RuyLopezOther5.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.Queene2#RuyLopezOther5.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Knightxe4#RuyLopezOpen.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishopc5#RuyMoeller-SteinDef.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O d6#RuyMoeller-SteinDef.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O b5 6.Bishopb3 Bishopb7#RuyLopezArchangelsk.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Bishopxc6#RuyLopezOther6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Queene2#RuyLopezOther6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.d4#RuyLopezOther6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.d3#RuyLopezOther6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Knightc3#RuyLopezOther6.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 O-O 8.a4#RuyLopezAntiMarshall.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 O-O 8.h3#RuyLopezAntiMarshall.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 O-O 8.d4#RuyLopezAntiMarshall.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 O-O 8.d3#RuyLopezAntiMarshall.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 O-O 8.c3 d5#RuyLopezMarshall.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.d4#RuyLopezOther9.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.d3#RuyLopezOther9.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.a4#RuyLopezOther9.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 Knightd7#RuyLopezKar-Smy-Khol.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 h6#RuyLopezKar-Smy-Khol.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 Bishope6#RuyLopezKar-Smy-Khol.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 Knightb8#RuyLopezBreyer.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 Bishopb7#RuyLopezFlohr-Zaitsev.pgn
-1.e4 e5 2.Knightf3 Knightc6 3.Bishopb5 a6 4.Bishopa4 Knightf6 5.O-O Bishope7 6.Rooke1 b5 7.Bishopb3 d6 8.c3 O-O 9.h3 Knighta5 10.Bishopc2 c5 11.d4#RuyLopezChigorin.pgn
-1.c4 b6#English1b6.pgn
-1.c4 f5#English1f5.pgn
-1.c4 c6#English1c6.pgn
-1.c4 g6#English1g6.pgn
-1.c4 c5 2.Knightf3 Knightf6 3.g3 b6 4.Bishopg2 Bishopb7 5.O-O g6#EngSymDoubleFianchetto.pgn
-1.c4 c5 2.Knightf3 Knightf6 3.g3 b6 4.Bishopg2 Bishopb7 5.O-O e6#EnglishSymHedgehog.pgn
-1.c4 c5 2.Knightf3 Knightf6 3.d4#EnglishSym3d4.pgn
-1.c4 c5 2.Knightc3 Knightf6 3.Knightf3 e6#EnglishSymOtherB3.pgn
-1.c4 c5 2.Knightc3 Knightf6 3.Knightf3 d5#EnglishSymOtherB3.pgn
-1.c4 c5 2.Knightc3 Knightf6 3.Knightf3 g6#EnglishSymOtherB3.pgn
-1.c4 c5 2.Knightc3 Knightf6 3.Knightf3 b6#EnglishSymOtherB3.pgn
-1.c4 c5 2.Knightc3 Knightf6 3.Knightf3 Knightc6#EnglishSymFourKnights.pgn
-1.c4 c5 2.Knightc3 Knightc6 3.g3 g6 4.Bishopg2 Bishopg7#EnglishSymMain.pgn
-1.c4 e6 2.Knightf3 d5#English1e6-2Nf3-d5.pgn
-1.c4 e6 2.Knightc3 d5#English1e6-2Nc3-d5.pgn
-1.c4 e6 2.Knightc3 Knightf6 3.e4#EnglishFlohr-Mikenas.pgn
-1.c4 e6 2.Knightc3 Knightf6 3.Knightf3#English1e6Main.pgn
-1.c4 e5 2.g3#EnglishSicRev2g3.pgn
-1.c4 e5 2.Knightc3 Bishopb4#EnglishSicRevOtherB2.pgn
-1.c4 e5 2.Knightc3 d6#EnglishSicRevOtherB2.pgn
-1.c4 e5 2.Knightc3 Knightf6 3.Knightf3 Knightc6#EnglishSicRev4Knights.pgn
-1.c4 e5 2.Knightc3 Knightf6 3.g3#EnglishSicRevBremen.pgn
-1.c4 e5 2.Knightc3 Knightc6#EnglishSicRevClosed.pgn
-1.c4 Knightf6 2.g3#English1Nf6-2g3.pgn
-1.c4 Knightf6 2.Knightf3 g6 3.g3 Bishopg7 4.Bishopg2 O-O#English1Nf6-2Nf3.pgn
-1.c4 Knightf6 2.Knightc3 g6#English1Nf6-2Nc3.pgn
-1.Knightf3 d5 2.b3#Reti2b3.pgn
-1.Knightf3 d5 2.c4#Reti2c4.pgn
-1.Knightf3 d5 2.g3#RetiKIA.pgn
-1.f4#Bird.pgn
-1.b3#Nimzowitsch-Larsen.pgn
-1.b4#Sokolsky.pgn
-1.Knightc3#Dunst.pgn
+1.d4 d6 2.c4 g6 3.Kc3 Bg7 4.e4#Modern.zip
+1.d4 c5 2.d5 e5#SemiBenoni.zip
+1.d4 Kf6 2.Bg5 Ke4#Trompowsky2Ne4.zip
+1.d4 Kf6 2.Bg5 e6#Trompowsky2e6.zip
+1.d4 Kf6 2.Bg5 d5#TrompowskyOther.zip
+1.d4 Kf6 2.Bg5 c5#TrompowskyOther.zip
+1.d4 Kf6 2.Bg5 c6#TrompowskyOther.zip
+1.d4 Kf6 2.Kf3 e6 3.Bg5#Torre2e6.zip
+1.d4 Kf6 2.Kf3 g6 3.Bg5#Torre2g6.zip
+1.d4 Kf6 2.Kf3 e6 3.Bf4#London2e6.zip
+1.d4 Kf6 2.Kf3 g6 3.Bf4#London2g6.zip
+1.d4 Kf6 2.c4 e6 3.g3 Bb4+#Catalan3Bb4.zip
+1.d4 Kf6 2.c4 e6 3.g3 c5#Catalan3c5.zip
+1.d4 Kf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4#CatalanOpen.zip
+1.d4 Kf6 2.c4 e6 3.g3 d5 4.Bg2 Be7 5.Kf3#CatalanClosed.zip
+1.d4 Kf6 2.c4 Kc6#BlackKTango.zip
+1.d4 Kf6 2.c4 e5#BudapestGambit.zip
+1.d4 Kf6 2.c4 d6#OldIndian.zip
+1.d4 Kf6 2.c4 c5 3.d5 e5 4.Kc3 d6#CzechBenoni.zip
+1.d4 Kf6 2.c4 c5 3.d5 b5#BenkoGambit.zip
+1.d4 Kf6 2.c4 c5 3.d5 e6 4.Kc3 exd5 5.cxd5 d6 6.Kf3#ModernBenoni6Nf3.zip
+1.d4 Kf6 2.c4 c5 3.d5 e6 4.Kc3 exd5 5.cxd5 d6 6.e4#ModernBenoni6e4.zip
+1.d4 f5 2.c4 Kf6 3.g3 g6 4.Bg2 Bg7 5.Kf3 O-O 6.O-O#DutchLeningrad.zip
+1.d4 f5 2.c4 Kf6 3.g3 e6 4.Bg2#DutchClassical.zip
+1.d4 f5 2.c4 Kf6 3.Kc3#Dutch3Nc3.zip
+1.d4 f5 2.Kc3, Bg5, e4#DutchOther.zip
+1.d4 Kf6 2.c4 g6 3.g3 d5 4.Bg2 Bg7 5.Kf3 O-O 6.O-O#GrunfeldFianchetto.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.Kf3#Grunfeld4Nf3.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.Bf4#GrunfeldOther.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.Bg53#GrunfeldOther.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.e3#GrunfeldOther.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.Queenb3#GrunfeldOther.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 d5 4.cxd5 Kxd5 5.e4 Kxc3 6.bxc3 Bg7#GrunfeldExchange.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 Bb4+ 4.Bd2#Bogo4Bd2.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 Bb4+ 4.Kbd2#Bogo4Nbd2.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.a3#QID4a3.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.Kc3#QID4Nc3.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.e3#QID4e3.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.Bg5#QIDOther.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.Bf4#QIDOther.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.g3 Ba6#QID4g3-Ba6.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.g3 Bb7#QID4g3Other.zip
+1.d4 Kf6 2.c4 e6 3.Kf3 b6 4.g3 Bb7 Bb4+#QID4g3Other.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Kf3#Nimzo4Nf3.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.a3#NimzoSaemisch.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Bg5#NimzoLeningrad.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.f3#Nimzo4f3.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.g3#NimzoOther4.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Queenb3#NimzoOther4.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Bd2#NimzoOther4.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 O-O#NimzoCl4O-O.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 c5#NimzoCl4c5.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 d5#NimzoClOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 Kc6#NimzoClOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 b6#NimzoClOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.Q2 d6#NimzoClOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 O-O#NimzoRub4O-O.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 c5#NimzoRub4c5.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 d5#NimzoRubOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 b6#NimzoRubOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 Kc6#NimzoRubOther.zip
+1.d4 Kf6 2.c4 e6 3.Kc3 Bb4 4.e3 Bxc3+#NimzoRubOther.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5#KIDAverbakh.zip
+1.c4 Kf6 2.d4 g6 3.g3 Bg7 4.Bg2 d6 5.Kf3 O-O#KIDFianchetto.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.f4#KID4pawns.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.f3#KIDSaemisch.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 O-O 6.Be2 e5 7.O-O Kc6#KIDClassical.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 O-O 6.Be2 e5 7.d5#KIDPetrosian.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 O-O 6.Be2 e5 7.Be3#KIDOther7.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 O-O 6.Be2 e5 7.dxe5#KIDOther7.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 O-O 6.Be2 e5 7.Bg5#KIDOther7.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 Bg4#KIDOther56.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 Kbd7#KIDOther56.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 c6#KIDOther56.zip
+1.d4 Kf6 2.c4 g6 3.Kc3 Bg7 4.e4 d6 5.Kf3 c5#KIDOther56.zip
+1.d4 d5 2.Bg5#Hodgson.zip
+1.d4 d5 2.Kf3 Kf6 3.e3#Colle.zip
+1.d4 d5 2.c4 c5#QGSym-Baltic.zip
+1.d4 d5 2.c4 Bf5#QGSym-Baltic.zip
+1.d4 d5 2.c4 e5#QG-Albin.zip
+1.d4 d5 2.c4 Kc6#QG-Chigorin.zip
+1.d4 d5 2.c4 c6 3.Kf3 dxc4#
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Q2#SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Queenb3#SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.g3#SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kbd2#SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.cxd5 cxd5 5.Kc3#SlavExchange.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 a6#Slav4a6.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.e4#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.e3#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.Ke5#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.g3#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.a4 Bg4#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.a4 Ka6#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.a4 e6#SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Kf3 Kf6 4.Kc3 dxc4 5.a4 Bf5#SlavMain.zip
+1.d4 d5 2.c4 dxc4 3.e4#QGA3e4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 a6, c5#QGAOther3.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 c5#QGAOther3.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.Kc3#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.Queena4+#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.e3 Bg4#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.e3 a6#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.e3 g6#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.e3 c5#QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Kf3 Kf6 4.e3 e6 5.Bxc4 c5#QGAMain.zip
+1.d4 d5 2.c4 e6 3.Kf3 c5#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 c6 4.e4#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 c6 4.Kf3 dxc4#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 c6 4.cxd5 exd5#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 Kbd7#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 Bb4#QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Kc3 c5#QGDTarrasch.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.cxd5#QGDExchange.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 Be7 5.Bf4#QGD5Bf4.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 c5 5.e3 Kc6#SemiTarr5e3-Nc6.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 c5 5.cxd5#SemiTarraschMain.zip
+1.d4 d5 2.c4 e6 3.Kf3 Kf6 4.Kc3 c6 5.Queenb3#SemiSlavOther5.zip
+1.d4 d5 2.c4 e6 3.Kf3 Kf6 4.Kc3 c6 5.Bf4#SemiSlavOther5.zip
+1.d4 d5 2.c4 e6 3.Kf3 Kf6 4.Kc3 c6 5.Bg5#SemiSlavBotvinnik.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Kf3 c6 5.e3#SemiSlavMeran.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Bg5 Kbd7#QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Bg5 c5#QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Bg5 Bb4#QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Kc3 Kf6 4.Bg5 Be7#QGDOrthoMain.zip
+1.e4 b6#OwenDefense.zip
+1.e4 Kc6#NimzoDefense.zip
+1.e4 d5 2.exd5 Queenxd5 3.Kc3 Queend6#Scand3Qd6-Qd8.zip
+1.e4 d5 2.exd5 Queenxd5 3.Kc3 Queend8#Scand3Qd6-Qd8.zip
+1.e4 d5 2.exd5 Queenxd5 3.Kc3 Queena5#Scand2Qxd5-3Qa5.zip
+1.e4 d5 2.exd5 Kf6 3.d4#Scand2Nf6-3d4.zip
+1.e4 d5 2.exd5 Kf6 3.c4#Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Kf6 3.Bb5+#Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Kf6 3.Kc3#Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Kf6 3.Kf3#Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Kf6 3.Bc4#Scand2Nf6Other.zip
+1.e4 Kf6 2.Kc3 d5#Alekhine2Nc3-d5.zip
+1.e4 Kf6 2.e5 Kd5 3.c4#AlekhineOther3.zip
+1.e4 Kf6 2.e5 Kd5 3.Kc3#AlekhineOther3.zip
+1.e4 Kf6 2.e5 Kd5 3.Kf3#AlekhineOther3.zip
+1.e4 Kf6 2.e5 Kd5 3.Bc4#AlekhineOther3.zip
+1.e4 Kf6 2.e5 Kd5 3. g3#AlekhineOther3.zip
+1.e4 Kf6 2.e5 Kd5 3.d4 d6 4.c4 Kb6 5.exd6#AlekhineExchange.zip
+1.e4 Kf6 2.e5 Kd5 3.d4 d6 4.c4 Kb6 5.f4#Alekhine4Pawns.zip
+1.e4 Kf6 2.e5 Kd5 3.d4 d6 4.Kf3#AlekhineModern.zip
+1.e4 g6 2.d4 Bg7 3.Kf3#Modern3Nf3.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 d6#Modern3Nc3-d6.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 c6#Modern3Nc3-c6.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 c5#Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 a6#Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 d5#Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Kc3 Kc6#Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.c3#ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.f4#ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.Be3#ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.Bc4#ModernOther3.zip
+1.e4 d6 2.d4 Kf6 3.Bd3#PircOtherWhite3.zip
+1.e4 d6 2.d4 Kf6 3.f32#PircOtherWhite3.zip
+1.e4 d6 2.d4 Kf6 3.Kd2#PircOtherWhite3.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 c6#PircOtherBlack3.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 e5#PircOtherBlack3.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 Kbd7#PircOtherBlack3.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.f4#PircAustrian.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.Be3#PircOtherWhite4.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.Bg5#PircOtherWhite4.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.f3#PircOtherWhite4.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.g3#PircOtherWhite4.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.Be2#PircOtherWhite4.zip
+1.e4 d6 2.d4 Kf6 3.Kc3 g6 4.Kf3#PircClassical.zip
+1.e4 c6 2.c4#Caro-Kann2c4.zip
+1.e4 c6 2.Kc3 d5 3.Kf3#Caro-Kann2K.zip
+1.e4 c6 2.d4 d5 3.exd5 cxd5 4.Bd3#Caro-KannEx.zip
+1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4#Caro-KannPan-Bot.zip
+1.e4 c6 2.d4 d5 3.e5#Caro-KannAdv.zip
+1.e4 c6 2.d4 d5 3.Kc3 dxe4 4.Kxe4 Kf6#Caro-Kann4Nf6.zip
+1.e4 c6 2.d4 d5 3.Kc3 dxe4 4.Kxe4 Kd7#Caro-Kann4Nd7.zip
+1.e4 c6 2.d4 d5 3.Kc3 dxe4 4.Kxe4 Bf5#Caro-KannClassic.zip
+1.e4 e6 2.d3#FrenchKIA.zip
+1.e4 e6 2.Kf3#FrenchOther2.zip
+1.e4 e6 2.Queene2#FrenchOther2.zip
+1.e4 e6 2.Kc3#FrenchOther2.zip
+1.e4 e6 2.b3#FrenchOther2.zip
+1.e4 e6 2.c4#FrenchOther2.zip
+1.e4 e6 2.d4 d5 3.exd5#FrenchExchange.zip
+1.e4 e6 2.d4 d5 3.e5 c5 4.c3#FrenchAdvance.zip
+1.e4 e6 2.d4 d5 3.Kd2 Kc6#FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Kd2 Be7#FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Kd2 a6#FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Kd2 c5#FrTarrasch3c5.zip
+1.e4 e6 2.d4 d5 3.Kd2 Kf6#FrTarrasch3Nf6.zip
+1.e4 e6 2.d4 d5 3.Kc3 dxe4 4.Kxe4#FrenchRubinstein.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.Ke2#FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.exd5#FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.Bd3#FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.a3#FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.e5 Ke7#FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.e5  b6#FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.e5 Queend7#FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Kc3 Bb4 4.e5 c5#FrWinawerMain.zip
+1.e4 e6 2.d4 d5 3.Kc3 Kf6 4.e5#FrenchSteinitz.zip
+1.e4 e6 2.d4 d5 3.Kc3 Kf6 4.Bg5 Bb4#FrenchMacCutcheon.zip
+1.e4 e6 2.d4 d5 3.Kc3 Kf6 4.Bg5 dxe4#FrenchBurn.zip
+1.e4 e6 2.d4 d5 3.Kc3 Kf6 4.Bg5 Be7#FrenchClassical.zip
+1.e4 c5 2.d3#SicilianMisc2.zip
+1.e4 c5 2.b3#SicilianMisc2.zip
+1.e4 c5 2.c4#SicilianMisc2.zip
+1.e4 c5 2.g3#SicilianMisc2.zip
+1.e4 c5 2.Ke2#SicilianMisc2.zip
+1.e4 c5 2.Bc4#SicilianMisc2.zip
+1.e4 c5 2.b4#SicilianMisc2.zip
+1.e4 c5 2.f4#Sicilian2f4.zip
+1.e4 c5 2.d4 cxd4 3.c3#SicilianSmith-Morra.zip
+1.e4 c5 2.c3 e6#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 d6#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 g6#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 e5#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 b6#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Kc6#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Queena5#SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Kf6#SicilianAlapin2Nf6.zip
+1.e4 c5 2.c3 d5#SicilianAlapin2d5.zip
+1.e4 c5 2.Kc3 e6#Sicilian2Nc3-e6.zip
+1.e4 c5 2.Kc3 d6#Sicilian2Nc3-d6.zip
+1.e4 c5 2.Kc3 Kc6 3.f4#SicilianGrandPrix.zip
+1.e4 c5 2.Kc3 Kc6 3.Kf3#SicilianClosedOther3.zip
+1.e4 c5 2.Kc3 Kc6 3.Kge2#SicilianClosedOther3.zip
+1.e4 c5 2.Kc3 Kc6 3.Bb5#SicilianClosedOther3.zip
+1.e4 c5 2.Kc3 Kc6 3.g3#icilianClosedMain.zip
+1.e4 c5 2.Kf3 g66#Sicilian2Nf3Other2.zip
+1.e4 c5 2.Kf3 a6#Sicilian2Nf3Other2.zip
+1.e4 c5 2.Kf3 Kf6#Sicilian2Nf3Other2.zip
+1.e4 c5 2.Kf3 Kc6 3.Bb5#SicilianRossolimo.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Queenb6#Sic2Nc6-4Qc7-4Qb6.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Q7#Sic2Nc6-4Qc7-4Qb6.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 e5#SicilianLowenthal.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6#Sicilian2Nc6Other5.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6#Sicilian2Nc6Other5.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Queenb6#Sicilian2Nc6Other5.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 g6#SicilianAccelDragon.zip
+1.e4 c5 2.Kf3 Kc6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 e5 6.Kdb5 d6#SicilianSveshnikov.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.Be23#SicilianKanOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.Be3#SicilianKanOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.g3#SicilianKanOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.c4#SicilianKan5c4.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.Kc3#SicilianKan5Nc3.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 a6 5.Bd3#SicilianKan5Bd3.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Be3#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Be3, Kxc6, c4, Be2, g3#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Kxc6#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.c4#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Be2#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.g3#SicilianTaimanovOther5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Kb5#SicilianTaimanov5Nb5.zip
+1.e4 c5 2.Kf3 e6 3.d4 cxd4 4.Kxd4 Kc6 5.Kc3#SicilianTaimanovMain.zip
+1.e4 c5 2.Kf3 d6 3.Bb5+#SicilianMoscow.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Queenxd4#Sicilian2d6-4Qxd4.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.g3#SicilianDragonOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.f4#SicilianDragonOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.f3#SicilianDragonOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.Bg5#SicilianDragonOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.Be2, Bc4#SicDragon6Be2-6Bc4.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 g6 6.Be3 Bg7 7.f3#SicilianDragonYugoslav.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.Be2#SicilianClassicalOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.Be3#SicilianClassicalOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.f3#SicilianClassicalOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.g3#SicilianClassicalOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.f4#SicilianClassicalOther6.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.Bc4#SicilianClassicalSozin.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 Kc6 6.Bg5#SicilianRichter-Rauzer.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 e6#SicilianScheveningen.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.a4#SicilianNajdorf6a4.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.g3#SicilianNajdorf6g3.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.f3#SicilianNajdorf6f3.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.f4#SicilianNajdorf6f4.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.Bc4#SicilianNajdorf6Bc4.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.Be3#SicilianNajdorf6Be3.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.Be2#SicilianNajdorf6Be2.zip
+1.e4 c5 2.Kf3 d6 3.d4 cxd4 4.Kxd4 Kf6 5.Kc3 a6 6.Bg5#SicilianNajdorf6Bg5.zip
+1.e4 e5 2.d4 exd4#CenterGame-Danish.zip
+1.e4 e5 2.Bc4#BsOpening.zip
+1.e4 e5 2.f4#KingsGambit.zip
+1.e4 e5 2.Kc3#Vienna.zip
+1.e4 e5 2.Kf3 d5#Latvian-Elephant.zip
+1.e4 e5 2.Kf3 f5#Latvian-Elephant.zip
+1.e4 e5 2.Kf3 d6#Philidor.zip
+1.e4 e5 2.Kf3 Kf6 3.Kc3#PetroffOther3.zip
+1.e4 e5 2.Kf3 Kf6 3.d4#PetroffOther3.zip
+1.e4 e5 2.Kf3 Kf6 3.d3#PetroffOther3.zip
+1.e4 e5 2.Kf3 Kf6 3.Bc4#PetroffOther3.zip
+1.e4 e5 2.Kf3 Kf6 3.Kxe5 d6 4.Kf3 Kxe4#PetroffMain.zip
+1.e4 e5 2.Kf3 Kc6 3.c3#Ponziani.zip
+1.e4 e5 2.Kf3 Kc6 3.Kc3 Bc5#ThreeKs.zip
+1.e4 e5 2.Kf3 Kc6 3.Kc3 g6#ThreeKs.zip
+1.e4 e5 2.Kf3 Kc6 3.Kc3 d6#ThreeKs.zip
+1.e4 e5 2.Kf3 Kc6 3.Kc3 Bb4#ThreeKs.zip
+1.e4 e5 2.Kf3 Kc6 3.Kc3 Kf6#FourKs.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.c3#GoringGambit.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Bc4#ScotchGambit.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Queenh4#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Kxd4#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Queenf6#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Bb4+#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 d6#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 g6#ScotchOther4.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Kf6#Scotch4Nf6.zip
+1.e4 e5 2.Kf3 Kc6 3.d4 exd4 4.Kxd4 Bc5#Scotch4Bc5.zip
+1.e4 e5 2.Kf3 Kc6 3.Bc4 Be7#Hungarian.zip
+1.e4 e5 2.Kf3 Kc6 3.Bc4 Kf6#TwoKs.zip
+1.e4 e5 2.Kf3 Kc6 3.Bc4 Bc5#GiuocoPiano.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 d6#RuyLopezOther3.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 Kd4#RuyLopezOther3.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 g6#RuyLopezOther3.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 Kge7#RuyLopezOther3.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 Bc5#RuyLopezClassical.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 f5#RuyLopezSchliemann.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 Kf6#RuyLopezBerlin.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Bxc6#RuyLopezExchange.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 d6#RuyLopezModSteinitz.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.d3#RuyLopezOther5.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.d4#RuyLopezOther5.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.Queene2#RuyLopezOther5.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Kxe4#RuyLopezOpen.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Bc5#RuyMoeller-SteinDef.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O d6#RuyMoeller-SteinDef.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O b5 6.Bb3 Bb7#RuyLopezArchangelsk.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Bxc6#RuyLopezOther6.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Queene2#RuyLopezOther6.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.d4#RuyLopezOther6.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.d3#RuyLopezOther6.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Kc3#RuyLopezOther6.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 O-O 8.a4#RuyLopezAntiMarshall.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 O-O 8.h3#RuyLopezAntiMarshall.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 O-O 8.d4#RuyLopezAntiMarshall.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 O-O 8.d3#RuyLopezAntiMarshall.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 O-O 8.c3 d5#RuyLopezMarshall.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.d4#RuyLopezOther9.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.d3#RuyLopezOther9.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.a4#RuyLopezOther9.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Kd7#RuyLopezKar-Smy-Khol.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 h6#RuyLopezKar-Smy-Khol.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Be6#RuyLopezKar-Smy-Khol.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Kb8#RuyLopezBreyer.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7#RuyLopezFlohr-Zaitsev.zip
+1.e4 e5 2.Kf3 Kc6 3.Bb5 a6 4.Ba4 Kf6 5.O-O Be7 6.Rooke1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Ka5 10.Bc2 c5 11.d4#RuyLopezChigorin.zip
+1.c4 b6#English1b6.zip
+1.c4 f5#English1f5.zip
+1.c4 c6#English1c6.zip
+1.c4 g6#English1g6.zip
+1.c4 c5 2.Kf3 Kf6 3.g3 b6 4.Bg2 Bb7 5.O-O g6#EngSymDoubleFianchetto.zip
+1.c4 c5 2.Kf3 Kf6 3.g3 b6 4.Bg2 Bb7 5.O-O e6#EnglishSymHedgehog.zip
+1.c4 c5 2.Kf3 Kf6 3.d4#EnglishSym3d4.zip
+1.c4 c5 2.Kc3 Kf6 3.Kf3 e6#EnglishSymOtherB3.zip
+1.c4 c5 2.Kc3 Kf6 3.Kf3 d5#EnglishSymOtherB3.zip
+1.c4 c5 2.Kc3 Kf6 3.Kf3 g6#EnglishSymOtherB3.zip
+1.c4 c5 2.Kc3 Kf6 3.Kf3 b6#EnglishSymOtherB3.zip
+1.c4 c5 2.Kc3 Kf6 3.Kf3 Kc6#EnglishSymFourKs.zip
+1.c4 c5 2.Kc3 Kc6 3.g3 g6 4.Bg2 Bg7#EnglishSymMain.zip
+1.c4 e6 2.Kf3 d5#English1e6-2Nf3-d5.zip
+1.c4 e6 2.Kc3 d5#English1e6-2Nc3-d5.zip
+1.c4 e6 2.Kc3 Kf6 3.e4#EnglishFlohr-Mikenas.zip
+1.c4 e6 2.Kc3 Kf6 3.Kf3#English1e6Main.zip
+1.c4 e5 2.g3#EnglishSicRev2g3.zip
+1.c4 e5 2.Kc3 Bb4#EnglishSicRevOtherB2.zip
+1.c4 e5 2.Kc3 d6#EnglishSicRevOtherB2.zip
+1.c4 e5 2.Kc3 Kf6 3.Kf3 Kc6#EnglishSicRev4Ks.zip
+1.c4 e5 2.Kc3 Kf6 3.g3#EnglishSicRevBremen.zip
+1.c4 e5 2.Kc3 Kc6#EnglishSicRevClosed.zip
+1.c4 Kf6 2.g3#English1Nf6-2g3.zip
+1.c4 Kf6 2.Kf3 g6 3.g3 Bg7 4.Bg2 O-O#English1Nf6-2Nf3.zip
+1.c4 Kf6 2.Kc3 g6#English1Nf6-2Nc3.zip
+1.Kf3 d5 2.b3#Reti2b3.zip
+1.Kf3 d5 2.c4#Reti2c4.zip
+1.Kf3 d5 2.g3#RetiKIA.zip
+1.f4#Bird.zip
+1.b3#Nimzowitsch-Larsen.zip
+1.b4#Sokolsky.zip
+1.Kc3#Dunst.zip

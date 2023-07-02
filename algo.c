@@ -11,31 +11,29 @@ void init_promo(t_game *game, t_board *current)
     if((game->x < game->to->x + 40 && game->x >= game->to->x - 10) && (game->y < game->to->y + 40 && game->y >= game->to->y - 10))
     {
         square(game, current, find_img(game->img, 4 * i));
-        game->from->piece = 0;
         game->to->piece = 4 * i;
     }
     else if((game->x < game->to->x + 90 && game->x >= game->to->x + 40) && (game->y < game->to->y + 40 && game->y >= game->to->y - 10))
     {
-        game->from->piece = 0;
         game->to->piece = 3 * i;
         square(game, current, find_img(game->img, 3 * i));
     }
     else if((game->x < game->to->x + 40 && game->x >= game->to->x - 10) && (game->y < game->to->y + 90 && game->y >= game->to->y + 40))
     {
-        game->from->piece = 0;
         game->to->piece = 5 * i;
         square(game, current, find_img(game->img, 5 * i));
     }
     else if((game->x < game->to->x + 90 && game->x >= game->to->x + 40) && (game->y < game->to->y + 90 && game->y >= game->to->y + 40))
     {
-        game->from->piece = 0;
         game->to->piece = 2 * i;
         square(game, current, find_img(game->img, 2 * i));
     }
     while(player->pos != game->from)
         player = player->next;
+    enter_log(game->from, game->to, game, game->to->piece);
     player->pos = game->to;
     player->piece = game->to->piece;
+    game->from->piece = 0;
 }
 
 int is_promo(t_game *game, t_board *from, t_board *to)
@@ -335,7 +333,7 @@ t_board *find_king2(t_game *game, int turn)
     return (temp->pos);
 }
 
-int simulate_move2(t_game *game, t_board *from, t_board *to)
+int simulate_move2(t_game *game, t_board *from, t_board *to, int promote)
 {
     int hold = to->piece;
     to->piece = from->piece;
@@ -345,6 +343,11 @@ int simulate_move2(t_game *game, t_board *from, t_board *to)
     {
         player = game->black;
         turn = 0;
+    }
+    if(promote)
+    {
+        to->piece = hold;
+        hold = from->piece;
     }
     while(player->pos != from)
         player = player->next;
