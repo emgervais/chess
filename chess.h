@@ -86,6 +86,7 @@ typedef struct s_game
     int pass;
     int castle;
     mlx_image_t *promo;
+    char **openn;
     int fd;
     char *file;
 }   t_game;

@@ -5,7 +5,7 @@ char *find_move(t_game *game, char *line)
     int i = strlen(game->log->move);
     int l = 0;
     line += i;
-    char *temp = malloc(sizeof(char) * 11);
+    char *temp = malloc(sizeof(char) * 100);
     while(*line == ' ')
         line++;
     if(line[1] == '.')
@@ -59,47 +59,61 @@ t_move *untranslate(t_game *game, char *move)//add prom and castle
     {
         while(player->piece != piece)
             player = player->next;
-        if(prec || player->pos->square % 10 != colfrom)
+        if(prec && player->pos->square % 10 != colfrom)
             player = player->next;
-        else if(is_valid(player->pos, cas, game, 1, 1))//be sure right param
+        else if(is_valid(player->pos, cas, game, 1, 1))
         {
             rmv->from = player->pos;
             rmv->to = cas;
             break ;
         }
+        player = player->next;
     }
     return (rmv);
 }
 t_move *check_open(t_game *game)
 {
-    char **openn = malloc(sizeof(char **) * 1000);
     int i = 0;
     char *temp;
     if(!game->fd)
     {
+        game->openn = malloc(sizeof(char **) * 300);
         game->fd = open("./opening.txt", O_RDONLY);
         game->file = malloc(sizeof(char) * 20001);
         int l = read(game->fd, game->file, 20000);
         game->file[l] = 0;
-    }
-    temp = game->file;
-    while(1)
-    {
-        openn[i] = strstr(temp, game->log->move);
-        if(!openn[i])
-            break ;
-        temp = openn[i];
-        while(*temp != '\n')
+        temp = game->file;
+        while(1)
+        {
+            game->openn[i] = strstr(temp, game->log->move);
+            if(!game->openn[i])
+                break ;
+            temp = game->openn[i];
+            while(*temp != '\n')
+                temp++;
+            *temp = 0;
             temp++;
-        *temp = 0;
-        temp++;
-        i++;
+            i++;
+        }
     }
+    else
+    {
+        int p = 0;
+        i = 0;
+        while(game->openn[i])
+        {
+            if(strstr(game->openn[i], game->log->move))
+                game->openn[p++] = game->openn[i];
+            i++;
+        }
+        i = p;
+    }
+    printf("i = %d\n", i);
     int k = rand() % i;
-    char *move = find_move(game, openn[k]);
+    printf("chose line : %s\n", game->openn[k]);
+    char *move = find_move(game, game->openn[k]);
     t_move *mov = untranslate(game, move);
     enter_log(mov->from, mov->to, game, 0);//check promote
     free(move);
-    free(openn);
     return(mov);
 }

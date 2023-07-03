@@ -48,5 +48,5 @@ int main(int ac, char **av)
     mlx_mouse_hook(game->mlx, &click, game);
     mlx_loop_hook(game->mlx, &test, game);
     mlx_loop(game->mlx);
-    mlx_terminate(game->mlx);
+    mlx_terminate(game->mlx);//prmot sometime isnt updated white ppawn take in h6 if check after romotion crash
 }
