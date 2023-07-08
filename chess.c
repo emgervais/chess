@@ -34,6 +34,8 @@ void init_g(t_game *game)
     game->saved = malloc(sizeof(t_move));
     game->saved->to = NULL;
     game->saved->from = NULL;
+    game->advancedopen = 0;
+    game->midgame = 0;
 }
 int main(int ac, char **av)
 {

@@ -4,6 +4,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <curl/curl.h>
 #include "./MLX42/include/MLX42/MLX42.h"
 
 typedef struct s_log
@@ -89,6 +90,8 @@ typedef struct s_game
     char **openn;
     int fd;
     char *file;
+    int midgame;
+    int advancedopen;
 }   t_game;
 
 void init_game(t_game *game);
@@ -113,3 +116,6 @@ int pass_pawn(t_game *game, t_board *from, t_board *to);
 char	*ft_itoa(int n);
 void enter_log(t_board *from, t_board *to, t_game *game, int promote);
 t_move *check_open(t_game *game);
+int past_valid(t_game *game);
+void init_advanced(t_game *game);
+char	*ft_strjoin(const char *s1, const char *s2);

@@ -5,11 +5,13 @@ char *find_move(t_game *game, char *line)
     int i = strlen(game->log->move);
     int l = 0;
     line += i;
+    if(*line == '#')
+        return (NULL);
     char *temp = malloc(sizeof(char) * 100);
     while(*line == ' ')
         line++;
     if(line[1] == '.')
-        line + 2;
+        line += 2;
     while(line[l] != ' ')
     {
         temp[l] = line[l];
@@ -71,6 +73,7 @@ t_move *untranslate(t_game *game, char *move)//add prom and castle
     }
     return (rmv);
 }
+
 t_move *check_open(t_game *game)
 {
     int i = 0;
@@ -83,6 +86,7 @@ t_move *check_open(t_game *game)
         int l = read(game->fd, game->file, 20000);
         game->file[l] = 0;
         temp = game->file;
+        close(game->fd);
         while(1)
         {
             game->openn[i] = strstr(temp, game->log->move);
@@ -107,13 +111,88 @@ t_move *check_open(t_game *game)
             i++;
         }
         i = p;
+        if(!p)
+            return (NULL);
     }
-    printf("i = %d\n", i);
     int k = rand() % i;
     printf("chose line : %s\n", game->openn[k]);
     char *move = find_move(game, game->openn[k]);
-    t_move *mov = untranslate(game, move);
-    enter_log(mov->from, mov->to, game, 0);//check promote
+    if(!move)
+    {
+        game->advancedopen = 1;
+        return (NULL);
+    }
+    t_move *mov = untranslate(game, move);//promote
     free(move);
     return(mov);
+}
+
+int past_valid(t_game *game)
+{
+    int i = strlen(game->log->move);
+    char *temp = malloc(sizeof(char) * (i + 1));
+    i -= 2;
+    while(game->log->move[i] != ' ')
+        i--;
+    i++;
+    int k = i;
+    temp[i] = '\0';
+    while(--i >= 0)
+        temp[i] = game->log->move[i];
+    i = 0;
+    while(game->openn[i] && (!strstr(game->openn[i], temp) || game->openn[i][k] != '#'))
+        i++;
+    free(temp);
+    if(!game->openn[i])
+        return (0);
+    game->openn[0] = game->openn[i];
+    return (1);
+}
+
+struct DownloadData {
+    FILE *file;
+    bool downloadComplete;
+};
+
+size_t write_data(void *ptr, size_t size, size_t nmemb, void *userdata)
+{
+    struct DownloadData *downloadData = (struct DownloadData *)userdata;
+    size_t written = fwrite(ptr, size, nmemb, downloadData->file);
+    return (written);
+}
+
+char *find_url(char *line)
+{
+    while(*line != '#')
+        line++;
+    line++;
+    return(ft_strjoin("https://www.pgnmentor.com/openings/", line));
+}
+
+void init_advanced(t_game *game)
+{
+    char *url = find_url(game->openn[0]);
+    FILE *file = fopen("./open/opening.zip", "wb");
+    printf("%s\n", url);
+    curl_global_init(CURL_GLOBAL_DEFAULT);
+    CURL *curl = curl_easy_init();
+
+    struct DownloadData downloadData;
+    downloadData.file = file;
+    downloadData.downloadComplete = false;
+
+    curl_easy_setopt(curl, CURLOPT_URL, url);
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_data);
+    curl_easy_setopt(curl, CURLOPT_WRITEDATA, &downloadData);
+
+    CURLcode res = curl_easy_perform(curl);
+
+    if (res != CURLE_OK) 
+        fprintf(stderr, "Failed to download file: %s\n", curl_easy_strerror(res));
+    curl_easy_cleanup(curl);
+    fclose(file);
+    curl_global_cleanup();
+    while (!downloadData.downloadComplete) 
+    {
+    }
 }

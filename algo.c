@@ -526,5 +526,6 @@ void apply_move(t_game *game, t_move *move)
     move->to->img = mlx_new_image(game->mlx, 80, 80);
     move->to->img = mlx_texture_to_image(game->mlx, find_img(game->img, move->from->piece));
     mlx_image_to_window(game->mlx, move->to->img, move->to->x, move->to->y);
+    enter_log(move->from, move->to, game, 0);
     update_pos(game, move->from, move->to, 1);
 }

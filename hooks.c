@@ -369,13 +369,26 @@ void click(mouse_key_t button, action_t action, modifier_key_t mods, void* param
         }
         if(!game->gamemode && game->turn == 1 && !game->locked)
         {
-            t_move *mv = check_open(game);
-            if(!mv)
+            t_move *mv;
+            if(!game->midgame && !game->advancedopen)
             {
+                mv = check_open(game);
+                if(!mv && past_valid(game))
+                    game->advancedopen = 1;
+                else if(!mv)
+                    game->midgame = 1;
+            }
+            if(game->advancedopen)
+                init_advanced(game);
+            //else
+                //mv = smt
+            if(game->midgame)
+            {
+                printf("rand\n");
                 srand(NULL);
                 fill_move(game, game->black);
-                clear_move(game->black);
                 apply_move(game, choose_move_rand(game->black, (rand() % (how_many_moves(game->black)))));
+                clear_move(game->black);
             }
             else
                 apply_move(game, mv);

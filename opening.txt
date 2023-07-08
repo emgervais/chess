@@ -1,377 +1,377 @@
-1.d4 d6 2.c4 g6 3.Nc3 Bg7 4.e4#Modern.zip
-1.d4 c5 2.d5 e5#SemiBenoni.zip
-1.d4 Nf6 2.Bg5 Ne4#TrompowsNy2Ne4.zip
-1.d4 Nf6 2.Bg5 e6#TrompowsNy2e6.zip
-1.d4 Nf6 2.Bg5 d5#TrompowsNyOther.zip
-1.d4 Nf6 2.Bg5 c5#TrompowsNyOther.zip
-1.d4 Nf6 2.Bg5 c6#TrompowsNyOther.zip
-1.d4 Nf6 2.Nf3 e6 3.Bg5#Torre2e6.zip
-1.d4 Nf6 2.Nf3 g6 3.Bg5#Torre2g6.zip
-1.d4 Nf6 2.Nf3 e6 3.Bf4#London2e6.zip
-1.d4 Nf6 2.Nf3 g6 3.Bf4#London2g6.zip
-1.d4 Nf6 2.c4 e6 3.g3 Bb4+#Catalan3Bb4.zip
-1.d4 Nf6 2.c4 e6 3.g3 c5#Catalan3c5.zip
-1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4#CatalanOpen.zip
-1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 Be7 5.Nf3#CatalanClosed.zip
-1.d4 Nf6 2.c4 Nc6#BlacNNTango.zip
-1.d4 Nf6 2.c4 e5#BudapestGambit.zip
-1.d4 Nf6 2.c4 d6#OldIndian.zip
-1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6#CzechBenoni.zip
-1.d4 Nf6 2.c4 c5 3.d5 b5#BenNoGambit.zip
-1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.Nf3#ModernBenoni6Nf3.zip
-1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4#ModernBenoni6e4.zip
-1.d4 f5 2.c4 Nf6 3.g3 g6 4.Bg2 Bg7 5.Nf3 O-O 6.O-O#DutchLeningrad.zip
-1.d4 f5 2.c4 Nf6 3.g3 e6 4.Bg2#DutchClassical.zip
-1.d4 f5 2.c4 Nf6 3.Nc3#Dutch3Nc3.zip
-1.d4 f5 2.Nc3, Bg5, e4#DutchOther.zip
-1.d4 Nf6 2.c4 g6 3.g3 d5 4.Bg2 Bg7 5.Nf3 O-O 6.O-O#GrunfeldFianchetto.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3#Grunfeld4Nf3.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4#GrunfeldOther.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg53#GrunfeldOther.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3#GrunfeldOther.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Qb3#GrunfeldOther.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7#GrunfeldExchange.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2#Bogo4Bd2.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2#Bogo4Nbd2.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3#QID4a3.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3#QID4Nc3.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3#QID4e3.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bg5#QIDOther.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bf4#QIDOther.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6#QID4g3-Ba6.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7#QID4g3Other.zip
-1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 Bb4+#QID4g3Other.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3#Nimzo4Nf3.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3#NimzoSaemisch.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5#NimzoLeningrad.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3#Nimzo4f3.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3#NimzoOther4.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3#NimzoOther4.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bd2#NimzoOther4.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 O-O#NimzoCl4O-O.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 c5#NimzoCl4c5.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 d5#NimzoClOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 Nc6#NimzoClOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 b6#NimzoClOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Q2 d6#NimzoClOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O#NimzoRub4O-O.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5#NimzoRub4c5.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 d5#NimzoRubOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6#NimzoRubOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Nc6#NimzoRubOther.zip
-1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Bxc3+#NimzoRubOther.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5#NIDAverbaNh.zip
-1.c4 Nf6 2.d4 g6 3.g3 Bg7 4.Bg2 d6 5.Nf3 O-O#NIDFianchetto.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f4#NID4pawns.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f3#NIDSaemisch.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nc6#NIDClassical.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.d5#NIDPetrosian.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.Be3#NIDOther7.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.dxe5#NIDOther7.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.Bg5#NIDOther7.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 Bg4#NIDOther56.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 Nbd7#NIDOther56.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 c6#NIDOther56.zip
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 c5#NIDOther56.zip
-1.d4 d5 2.Bg5#Hodgson.zip
-1.d4 d5 2.Nf3 Nf6 3.e3#Colle.zip
-1.d4 d5 2.c4 c5#QGSym-Baltic.zip
-1.d4 d5 2.c4 Bf5#QGSym-Baltic.zip
-1.d4 d5 2.c4 e5#QG-Albin.zip
-1.d4 d5 2.c4 Nc6#QG-Chigorin.zip
-1.d4 d5 2.c4 c6 3.Nf3 dxc4#
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Q2#SlavOther34.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3#SlavOther34.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3#SlavOther34.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nbd2#SlavOther34.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3#SlavExchange.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 a6#Slav4a6.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e4#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e3#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.Ne5#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.g3#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bg4#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Na6#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 e6#SlavOther5.zip
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5#SlavMain.zip
-1.d4 d5 2.c4 dxc4 3.e4#QGA3e4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 a6, c5#QGAOther3.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 c5#QGAOther3.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 Bg4#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 a6#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 g6#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 c5#QGAOther4.zip
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5#QGAMain.zip
-1.d4 d5 2.c4 e6 3.Nf3 c5#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 c6 4.cxd5 exd5#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4#QGDOther34.zip
-1.d4 d5 2.c4 e6 3.Nc3 c5#QGDTarrasch.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5#QGDExchange.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Be7 5.Bf4#QGD5Bf4.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c5 5.e3 Nc6#SemiTarr5e3-Nc6.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c5 5.cxd5#SemiTarraschMain.zip
-1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Qb3#SemiSlavOther5.zip
-1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Bf4#SemiSlavOther5.zip
-1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Bg5#SemiSlavBotvinniN.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c6 5.e3#SemiSlavMeran.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7#QGDOrthoOther4.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5#QGDOrthoOther4.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Bb4#QGDOrthoOther4.zip
-1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7#QGDOrthoMain.zip
-1.e4 b6#OwenDefense.zip
-1.e4 Nc6#NimzoDefense.zip
-1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6#Scand3Qd6-Qd8.zip
-1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8#Scand3Qd6-Qd8.zip
-1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5#Scand2Qxd5-3Qa5.zip
-1.e4 d5 2.exd5 Nf6 3.d4#Scand2Nf6-3d4.zip
-1.e4 d5 2.exd5 Nf6 3.c4#Scand2Nf6Other.zip
-1.e4 d5 2.exd5 Nf6 3.Bb5+#Scand2Nf6Other.zip
-1.e4 d5 2.exd5 Nf6 3.Nc3#Scand2Nf6Other.zip
-1.e4 d5 2.exd5 Nf6 3.Nf3#Scand2Nf6Other.zip
-1.e4 d5 2.exd5 Nf6 3.Bc4#Scand2Nf6Other.zip
-1.e4 Nf6 2.Nc3 d5#AleNhine2Nc3-d5.zip
-1.e4 Nf6 2.e5 Nd5 3.c4#AleNhineOther3.zip
-1.e4 Nf6 2.e5 Nd5 3.Nc3#AleNhineOther3.zip
-1.e4 Nf6 2.e5 Nd5 3.Nf3#AleNhineOther3.zip
-1.e4 Nf6 2.e5 Nd5 3.Bc4#AleNhineOther3.zip
-1.e4 Nf6 2.e5 Nd5 3. g3#AleNhineOther3.zip
-1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6#AleNhineExchange.zip
-1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4#AleNhine4Pawns.zip
-1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3#AleNhineModern.zip
-1.e4 g6 2.d4 Bg7 3.Nf3#Modern3Nf3.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 d6#Modern3Nc3-d6.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 c6#Modern3Nc3-c6.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 c5#Modern3Nc3Other.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 a6#Modern3Nc3Other.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 d5#Modern3Nc3Other.zip
-1.e4 g6 2.d4 Bg7 3.Nc3 Nc6#Modern3Nc3Other.zip
-1.e4 g6 2.d4 Bg7 3.c3#ModernOther3.zip
-1.e4 g6 2.d4 Bg7 3.f4#ModernOther3.zip
-1.e4 g6 2.d4 Bg7 3.Be3#ModernOther3.zip
-1.e4 g6 2.d4 Bg7 3.Bc4#ModernOther3.zip
-1.e4 d6 2.d4 Nf6 3.Bd3#PircOtherWhite3.zip
-1.e4 d6 2.d4 Nf6 3.f32#PircOtherWhite3.zip
-1.e4 d6 2.d4 Nf6 3.Nd2#PircOtherWhite3.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 c6#PircOtherBlacN3.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 e5#PircOtherBlacN3.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7#PircOtherBlacN3.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4#PircAustrian.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3#PircOtherWhite4.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5#PircOtherWhite4.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f3#PircOtherWhite4.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3#PircOtherWhite4.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2#PircOtherWhite4.zip
-1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3#PircClassical.zip
-1.e4 c6 2.c4#Caro-Nann2c4.zip
-1.e4 c6 2.Nc3 d5 3.Nf3#Caro-Nann2N.zip
-1.e4 c6 2.d4 d5 3.exd5 cxd5 4.Bd3#Caro-NannEx.zip
-1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4#Caro-NannPan-Bot.zip
-1.e4 c6 2.d4 d5 3.e5#Caro-NannAdv.zip
-1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6#Caro-Nann4Nf6.zip
-1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7#Caro-Nann4Nd7.zip
-1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5#Caro-NannClassic.zip
-1.e4 e6 2.d3#FrenchNIA.zip
-1.e4 e6 2.Nf3#FrenchOther2.zip
-1.e4 e6 2.Qe2#FrenchOther2.zip
-1.e4 e6 2.Nc3#FrenchOther2.zip
-1.e4 e6 2.b3#FrenchOther2.zip
-1.e4 e6 2.c4#FrenchOther2.zip
-1.e4 e6 2.d4 d5 3.exd5#FrenchExchange.zip
-1.e4 e6 2.d4 d5 3.e5 c5 4.c3#FrenchAdvance.zip
-1.e4 e6 2.d4 d5 3.Nd2 Nc6#FrTarraschOther3.zip
-1.e4 e6 2.d4 d5 3.Nd2 Be7#FrTarraschOther3.zip
-1.e4 e6 2.d4 d5 3.Nd2 a6#FrTarraschOther3.zip
-1.e4 e6 2.d4 d5 3.Nd2 c5#FrTarrasch3c5.zip
-1.e4 e6 2.d4 d5 3.Nd2 Nf6#FrTarrasch3Nf6.zip
-1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4#FrenchRubinstein.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2#FrWinawerOtherW4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.exd5#FrWinawerOtherW4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd3#FrWinawerOtherW4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3#FrWinawerOtherW4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7#FrWinawerOtherB4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5  b6#FrWinawerOtherB4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Qd7#FrWinawerOtherB4.zip
-1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5#FrWinawerMain.zip
-1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5#FrenchSteinitz.zip
-1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4#FrenchMacCutcheon.zip
-1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4#FrenchBurn.zip
-1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7#FrenchClassical.zip
-1.e4 c5 2.d3#SicilianMisc2.zip
-1.e4 c5 2.b3#SicilianMisc2.zip
-1.e4 c5 2.c4#SicilianMisc2.zip
-1.e4 c5 2.g3#SicilianMisc2.zip
-1.e4 c5 2.Ne2#SicilianMisc2.zip
-1.e4 c5 2.Bc4#SicilianMisc2.zip
-1.e4 c5 2.b4#SicilianMisc2.zip
-1.e4 c5 2.f4#Sicilian2f4.zip
-1.e4 c5 2.d4 cxd4 3.c3#SicilianSmith-Morra.zip
-1.e4 c5 2.c3 e6#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 d6#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 g6#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 e5#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 b6#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 Nc6#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 Qa5#SicilianAlapinOther2.zip
-1.e4 c5 2.c3 Nf6#SicilianAlapin2Nf6.zip
-1.e4 c5 2.c3 d5#SicilianAlapin2d5.zip
-1.e4 c5 2.Nc3 e6#Sicilian2Nc3-e6.zip
-1.e4 c5 2.Nc3 d6#Sicilian2Nc3-d6.zip
-1.e4 c5 2.Nc3 Nc6 3.f4#SicilianGrandPrix.zip
-1.e4 c5 2.Nc3 Nc6 3.Nf3#SicilianClosedOther3.zip
-1.e4 c5 2.Nc3 Nc6 3.Nge2#SicilianClosedOther3.zip
-1.e4 c5 2.Nc3 Nc6 3.Bb5#SicilianClosedOther3.zip
-1.e4 c5 2.Nc3 Nc6 3.g3#icilianClosedMain.zip
-1.e4 c5 2.Nf3 g66#Sicilian2Nf3Other2.zip
-1.e4 c5 2.Nf3 a6#Sicilian2Nf3Other2.zip
-1.e4 c5 2.Nf3 Nf6#Sicilian2Nf3Other2.zip
-1.e4 c5 2.Nf3 Nc6 3.Bb5#SicilianRossolimo.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qb6#Sic2Nc6-4Qc7-4Qb6.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Q7#Sic2Nc6-4Qc7-4Qb6.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5#SicilianLowenthal.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6#Sicilian2Nc6Other5.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6#Sicilian2Nc6Other5.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Qb6#Sicilian2Nc6Other5.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6#SicilianAccelDragon.zip
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6#SicilianSveshniNov.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Be23#SicilianNanOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Be3#SicilianNanOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.g3#SicilianNanOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4#SicilianNan5c4.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3#SicilianNan5Nc3.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3#SicilianNan5Bd3.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3, Nxc6, c4, Be2, g3#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nxc6#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.c4#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be2#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.g3#SicilianTaimanovOther5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nb5#SicilianTaimanov5Nb5.zip
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3#SicilianTaimanovMain.zip
-1.e4 c5 2.Nf3 d6 3.Bb5+#SicilianMoscow.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4#Sicilian2d6-4Qxd4.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.g3#SicilianDragonOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f4#SicilianDragonOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f3#SicilianDragonOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Bg5#SicilianDragonOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be2, Bc4#SicDragon6Be2-6Bc4.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3#SicilianDragonYugoslav.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2#SicilianClassicalOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be3#SicilianClassicalOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f3#SicilianClassicalOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.g3#SicilianClassicalOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f4#SicilianClassicalOther6.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4#SicilianClassicalSozin.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5#SicilianRichter-Rauzer.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6#SicilianScheveningen.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.a4#SicilianNajdorf6a4.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.g3#SicilianNajdorf6g3.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3#SicilianNajdorf6f3.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f4#SicilianNajdorf6f4.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bc4#SicilianNajdorf6Bc4.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3#SicilianNajdorf6Be3.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2#SicilianNajdorf6Be2.zip
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5#SicilianNajdorf6Bg5.zip
-1.e4 e5 2.d4 exd4#CenterGame-Danish.zip
-1.e4 e5 2.Bc4#BsOpening.zip
-1.e4 e5 2.f4#NingsGambit.zip
-1.e4 e5 2.Nc3#Vienna.zip
-1.e4 e5 2.Nf3 d5#Latvian-Elephant.zip
-1.e4 e5 2.Nf3 f5#Latvian-Elephant.zip
-1.e4 e5 2.Nf3 d6#Philidor.zip
-1.e4 e5 2.Nf3 Nf6 3.Nc3#PetroffOther3.zip
-1.e4 e5 2.Nf3 Nf6 3.d4#PetroffOther3.zip
-1.e4 e5 2.Nf3 Nf6 3.d3#PetroffOther3.zip
-1.e4 e5 2.Nf3 Nf6 3.Bc4#PetroffOther3.zip
-1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4#PetroffMain.zip
-1.e4 e5 2.Nf3 Nc6 3.c3#Ponziani.zip
-1.e4 e5 2.Nf3 Nc6 3.Nc3 Bc5#ThreeNs.zip
-1.e4 e5 2.Nf3 Nc6 3.Nc3 g6#ThreeNs.zip
-1.e4 e5 2.Nf3 Nc6 3.Nc3 d6#ThreeNs.zip
-1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4#ThreeNs.zip
-1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6#FourNs.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3#GoringGambit.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4#ScotchGambit.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qf6#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 d6#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 g6#ScotchOther4.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6#Scotch4Nf6.zip
-1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5#Scotch4Bc5.zip
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7#Hungarian.zip
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6#TwoNs.zip
-1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5#GiuocoPiano.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 d6#RuyLopezOther3.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4#RuyLopezOther3.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 g6#RuyLopezOther3.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7#RuyLopezOther3.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5#RuyLopezClassical.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 f5#RuyLopezSchliemann.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6#RuyLopezBerlin.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6#RuyLopezExchange.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6#RuyLopezModSteinitz.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3#RuyLopezOther5.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d4#RuyLopezOther5.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2#RuyLopezOther5.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4#RuyLopezOpen.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Bc5#RuyMoeller-SteinDef.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6#RuyMoeller-SteinDef.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bb7#RuyLopezArchangelsN.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6#RuyLopezOther6.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2#RuyLopezOther6.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4#RuyLopezOther6.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3#RuyLopezOther6.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Nc3#RuyLopezOther6.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.a4#RuyLopezAntiMarshall.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.h3#RuyLopezAntiMarshall.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.d4#RuyLopezAntiMarshall.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.d3#RuyLopezAntiMarshall.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.c3 d5#RuyLopezMarshall.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.d4#RuyLopezOther9.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.d3#RuyLopezOther9.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.a4#RuyLopezOther9.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nd7#RuyLopezNar-Smy-Nhol.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 h6#RuyLopezNar-Smy-Nhol.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Be6#RuyLopezNar-Smy-Nhol.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8#RuyLopezBreyer.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7#RuyLopezFlohr-Zaitsev.zip
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4#RuyLopezChigorin.zip
-1.c4 b6#English1b6.zip
-1.c4 f5#English1f5.zip
-1.c4 c6#English1c6.zip
-1.c4 g6#English1g6.zip
-1.c4 c5 2.Nf3 Nf6 3.g3 b6 4.Bg2 Bb7 5.O-O g6#EngSymDoubleFianchetto.zip
-1.c4 c5 2.Nf3 Nf6 3.g3 b6 4.Bg2 Bb7 5.O-O e6#EnglishSymHedgehog.zip
-1.c4 c5 2.Nf3 Nf6 3.d4#EnglishSym3d4.zip
-1.c4 c5 2.Nc3 Nf6 3.Nf3 e6#EnglishSymOtherB3.zip
-1.c4 c5 2.Nc3 Nf6 3.Nf3 d5#EnglishSymOtherB3.zip
-1.c4 c5 2.Nc3 Nf6 3.Nf3 g6#EnglishSymOtherB3.zip
-1.c4 c5 2.Nc3 Nf6 3.Nf3 b6#EnglishSymOtherB3.zip
-1.c4 c5 2.Nc3 Nf6 3.Nf3 Nc6#EnglishSymFourNs.zip
-1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7#EnglishSymMain.zip
-1.c4 e6 2.Nf3 d5#English1e6-2Nf3-d5.zip
-1.c4 e6 2.Nc3 d5#English1e6-2Nc3-d5.zip
-1.c4 e6 2.Nc3 Nf6 3.e4#EnglishFlohr-MiNenas.zip
-1.c4 e6 2.Nc3 Nf6 3.Nf3#English1e6Main.zip
-1.c4 e5 2.g3#EnglishSicRev2g3.zip
-1.c4 e5 2.Nc3 Bb4#EnglishSicRevOtherB2.zip
-1.c4 e5 2.Nc3 d6#EnglishSicRevOtherB2.zip
-1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6#EnglishSicRev4Ns.zip
-1.c4 e5 2.Nc3 Nf6 3.g3#EnglishSicRevBremen.zip
-1.c4 e5 2.Nc3 Nc6#EnglishSicRevClosed.zip
-1.c4 Nf6 2.g3#English1Nf6-2g3.zip
-1.c4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O#English1Nf6-2Nf3.zip
-1.c4 Nf6 2.Nc3 g6#English1Nf6-2Nc3.zip
-1.Nf3 d5 2.b3#Reti2b3.zip
-1.Nf3 d5 2.c4#Reti2c4.zip
-1.Nf3 d5 2.g3#RetiNIA.zip
-1.f4#Bird.zip
-1.b3#Nimzowitsch-Larsen.zip
-1.b4#SoNolsNy.zip
-1.Nc3#Dunst.zip
+1.d4 d6 2.c4 g6 3.Nc3 Bg7 4.e4 #Modern.zip
+1.d4 c5 2.d5 e5 #SemiBenoni.zip
+1.d4 Nf6 2.Bg5 Ne4 #TrompowsNy2Ne4.zip
+1.d4 Nf6 2.Bg5 e6 #TrompowsNy2e6.zip
+1.d4 Nf6 2.Bg5 d5 #TrompowsNyOther.zip
+1.d4 Nf6 2.Bg5 c5 #TrompowsNyOther.zip
+1.d4 Nf6 2.Bg5 c6 #TrompowsNyOther.zip
+1.d4 Nf6 2.Nf3 e6 3.Bg5 #Torre2e6.zip
+1.d4 Nf6 2.Nf3 g6 3.Bg5 #Torre2g6.zip
+1.d4 Nf6 2.Nf3 e6 3.Bf4 #London2e6.zip
+1.d4 Nf6 2.Nf3 g6 3.Bf4 #London2g6.zip
+1.d4 Nf6 2.c4 e6 3.g3 Bb4+ #Catalan3Bb4.zip
+1.d4 Nf6 2.c4 e6 3.g3 c5 #Catalan3c5.zip
+1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 #CatalanOpen.zip
+1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 Be7 5.Nf3 #CatalanClosed.zip
+1.d4 Nf6 2.c4 Nc6 #BlacNNTango.zip
+1.d4 Nf6 2.c4 e5 #BudapestGambit.zip
+1.d4 Nf6 2.c4 d6 #OldIndian.zip
+1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6 #CzechBenoni.zip
+1.d4 Nf6 2.c4 c5 3.d5 b5 #BenNoGambit.zip
+1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.Nf3 #ModernBenoni6Nf3.zip
+1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 #ModernBenoni6e4.zip
+1.d4 f5 2.c4 Nf6 3.g3 g6 4.Bg2 Bg7 5.Nf3 O-O 6.O-O #DutchLeningrad.zip
+1.d4 f5 2.c4 Nf6 3.g3 e6 4.Bg2 #DutchClassical.zip
+1.d4 f5 2.c4 Nf6 3.Nc3 #Dutch3Nc3.zip
+1.d4 f5 2.Nc3, Bg5, e4 #DutchOther.zip
+1.d4 Nf6 2.c4 g6 3.g3 d5 4.Bg2 Bg7 5.Nf3 O-O 6.O-O #GrunfeldFianchetto.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 #Grunfeld4Nf3.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 #GrunfeldOther.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg53 #GrunfeldOther.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 #GrunfeldOther.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Qb3 #GrunfeldOther.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7 #GrunfeldExchange.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 #Bogo4Bd2.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 #Bogo4Nbd2.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 #QID4a3.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 #QID4Nc3.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 #QID4e3.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bg5 #QIDOther.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bf4 #QIDOther.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 #QID4g3-Ba6.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 #QID4g3Other.zip
+1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 Bb4+ #QID4g3Other.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 #Nimzo4Nf3.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 #NimzoSaemisch.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 #NimzoLeningrad.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 #Nimzo4f3.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3 #NimzoOther4.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 #NimzoOther4.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bd2 #NimzoOther4.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O #NimzoCl4O-O.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 #NimzoCl4c5.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 #NimzoClOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 #NimzoClOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 b6 #NimzoClOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d6 #NimzoClOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O #NimzoRub4O-O.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 #NimzoRub4c5.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 d5 #NimzoRubOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 #NimzoRubOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Nc6 #NimzoRubOther.zip
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Bxc3+ #NimzoRubOther.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5 #NIDAverbaNh.zip
+1.c4 Nf6 2.d4 g6 3.g3 Bg7 4.Bg2 d6 5.Nf3 O-O #NIDFianchetto.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f4 #NID4pawns.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f3 #NIDSaemisch.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.O-O Nc6 #NIDClassical.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.d5 #NIDPetrosian.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.Be3 #NIDOther7.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.dxe5 #NIDOther7.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 O-O 6.Be2 e5 7.Bg5 #NIDOther7.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 Bg4 #NIDOther56.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 Nbd7 #NIDOther56.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 c6 #NIDOther56.zip
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Nf3 c5 #NIDOther56.zip
+1.d4 d5 2.Bg5 #Hodgson.zip
+1.d4 d5 2.Nf3 Nf6 3.e3 #Colle.zip
+1.d4 d5 2.c4 c5 #QGSym-Baltic.zip
+1.d4 d5 2.c4 Bf5 #QGSym-Baltic.zip
+1.d4 d5 2.c4 e5 #QG-Albin.zip
+1.d4 d5 2.c4 Nc6 #QG-Chigorin.zip
+1.d4 d5 2.c4 c6 3.Nf3 dxc4 #
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Q2 #SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 #SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 #SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nbd2 #SlavOther34.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3 #SlavExchange.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 a6 #Slav4a6.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e4 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.e3 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.Ne5 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.g3 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bg4 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Na6 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 e6 #SlavOther5.zip
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 #SlavMain.zip
+1.d4 d5 2.c4 dxc4 3.e4 #QGA3e4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 a6, c5 #QGAOther3.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 c5 #QGAOther3.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 Bg4 #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 a6 #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 g6 #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 c5 #QGAOther4.zip
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 #QGAMain.zip
+1.d4 d5 2.c4 e6 3.Nf3 c5 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 c6 4.cxd5 exd5 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 #QGDOther34.zip
+1.d4 d5 2.c4 e6 3.Nc3 c5 #QGDTarrasch.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 #QGDExchange.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Be7 5.Bf4 #QGD5Bf4.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c5 5.e3 Nc6 #SemiTarr5e3-Nc6.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c5 5.cxd5 #SemiTarraschMain.zip
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Qb3 #SemiSlavOther5.zip
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Bf4 #SemiSlavOther5.zip
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 c6 5.Bg5 #SemiSlavBotvinniN.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 c6 5.e3 #SemiSlavMeran.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 #QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 #QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Bb4 #QGDOrthoOther4.zip
+1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 #QGDOrthoMain.zip
+1.e4 b6 #OwenDefense.zip
+1.e4 Nc6 #NimzoDefense.zip
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 #Scand3Qd6-Qd8.zip
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 #Scand3Qd6-Qd8.zip
+1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 #Scand2Qxd5-3Qa5.zip
+1.e4 d5 2.exd5 Nf6 3.d4 #Scand2Nf6-3d4.zip
+1.e4 d5 2.exd5 Nf6 3.c4 #Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Nf6 3.Bb5+ #Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Nf6 3.Nc3 #Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Nf6 3.Nf3 #Scand2Nf6Other.zip
+1.e4 d5 2.exd5 Nf6 3.Bc4 #Scand2Nf6Other.zip
+1.e4 Nf6 2.Nc3 d5 #AleNhine2Nc3-d5.zip
+1.e4 Nf6 2.e5 Nd5 3.c4 #AleNhineOther3.zip
+1.e4 Nf6 2.e5 Nd5 3.Nc3 #AleNhineOther3.zip
+1.e4 Nf6 2.e5 Nd5 3.Nf3 #AleNhineOther3.zip
+1.e4 Nf6 2.e5 Nd5 3.Bc4 #AleNhineOther3.zip
+1.e4 Nf6 2.e5 Nd5 3. g3 #AleNhineOther3.zip
+1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 #AleNhineExchange.zip
+1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 #AleNhine4Pawns.zip
+1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 #AleNhineModern.zip
+1.e4 g6 2.d4 Bg7 3.Nf3 #Modern3Nf3.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 d6 #Modern3Nc3-d6.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 c6 #Modern3Nc3-c6.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 c5 #Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 a6 #Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 d5 #Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.Nc3 Nc6 #Modern3Nc3Other.zip
+1.e4 g6 2.d4 Bg7 3.c3 #ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.f4 #ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.Be3 #ModernOther3.zip
+1.e4 g6 2.d4 Bg7 3.Bc4 #ModernOther3.zip
+1.e4 d6 2.d4 Nf6 3.Bd3 #PircOtherWhite3.zip
+1.e4 d6 2.d4 Nf6 3.f32 #PircOtherWhite3.zip
+1.e4 d6 2.d4 Nf6 3.Nd2 #PircOtherWhite3.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 c6 #PircOtherBlacN3.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 e5 #PircOtherBlacN3.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 #PircOtherBlacN3.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 #PircAustrian.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 #PircOtherWhite4.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5 #PircOtherWhite4.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f3 #PircOtherWhite4.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3 #PircOtherWhite4.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 #PircOtherWhite4.zip
+1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 #PircClassical.zip
+1.e4 c6 2.c4 #Caro-Nann2c4.zip
+1.e4 c6 2.Nc3 d5 3.Nf3 #Caro-Nann2N.zip
+1.e4 c6 2.d4 d5 3.exd5 cxd5 4.Bd3 #Caro-NannEx.zip
+1.e4 c6 2.d4 d5 3.exd5 cxd5 4.c4 #Caro-NannPan-Bot.zip
+1.e4 c6 2.d4 d5 3.e5 #Caro-NannAdv.zip
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 #Caro-Nann4Nf6.zip
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 #Caro-Nann4Nd7.zip
+1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 #Caro-NannClassic.zip
+1.e4 e6 2.d3 #FrenchNIA.zip
+1.e4 e6 2.Nf3 #FrenchOther2.zip
+1.e4 e6 2.Qe2 #FrenchOther2.zip
+1.e4 e6 2.Nc3 #FrenchOther2.zip
+1.e4 e6 2.b3 #FrenchOther2.zip
+1.e4 e6 2.c4 #FrenchOther2.zip
+1.e4 e6 2.d4 d5 3.exd5 #FrenchExchange.zip
+1.e4 e6 2.d4 d5 3.e5 c5 4.c3 #FrenchAdvance.zip
+1.e4 e6 2.d4 d5 3.Nd2 Nc6 #FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Nd2 Be7 #FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Nd2 a6 #FrTarraschOther3.zip
+1.e4 e6 2.d4 d5 3.Nd2 c5 #FrTarrasch3c5.zip
+1.e4 e6 2.d4 d5 3.Nd2 Nf6 #FrTarrasch3Nf6.zip
+1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 #FrenchRubinstein.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 #FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.exd5 #FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd3 #FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3 #FrWinawerOtherW4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 #FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5  b6 #FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Qd7 #FrWinawerOtherB4.zip
+1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 #FrWinawerMain.zip
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 #FrenchSteinitz.zip
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 #FrenchMacCutcheon.zip
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 #FrenchBurn.zip
+1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 #FrenchClassical.zip
+1.e4 c5 2.d3 #SicilianMisc2.zip
+1.e4 c5 2.b3 #SicilianMisc2.zip
+1.e4 c5 2.c4 #SicilianMisc2.zip
+1.e4 c5 2.g3 #SicilianMisc2.zip
+1.e4 c5 2.Ne2 #SicilianMisc2.zip
+1.e4 c5 2.Bc4 #SicilianMisc2.zip
+1.e4 c5 2.b4 #SicilianMisc2.zip
+1.e4 c5 2.f4 #Sicilian2f4.zip
+1.e4 c5 2.d4 cxd4 3.c3 #SicilianSmith-Morra.zip
+1.e4 c5 2.c3 e6 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 d6 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 g6 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 e5 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 b6 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Nc6 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Qa5 #SicilianAlapinOther2.zip
+1.e4 c5 2.c3 Nf6 #SicilianAlapin2Nf6.zip
+1.e4 c5 2.c3 d5 #SicilianAlapin2d5.zip
+1.e4 c5 2.Nc3 e6 #Sicilian2Nc3-e6.zip
+1.e4 c5 2.Nc3 d6 #Sicilian2Nc3-d6.zip
+1.e4 c5 2.Nc3 Nc6 3.f4 #SicilianGrandPrix.zip
+1.e4 c5 2.Nc3 Nc6 3.Nf3 #SicilianClosedOther3.zip
+1.e4 c5 2.Nc3 Nc6 3.Nge2 #SicilianClosedOther3.zip
+1.e4 c5 2.Nc3 Nc6 3.Bb5 #SicilianClosedOther3.zip
+1.e4 c5 2.Nc3 Nc6 3.g3 #icilianClosedMain.zip
+1.e4 c5 2.Nf3 g66 #Sicilian2Nf3Other2.zip
+1.e4 c5 2.Nf3 a6 #Sicilian2Nf3Other2.zip
+1.e4 c5 2.Nf3 Nf6 #Sicilian2Nf3Other2.zip
+1.e4 c5 2.Nf3 Nc6 3.Bb5 #SicilianRossolimo.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qb6 #Sic2Nc6-4Qc7-4Qb6.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Q7 #Sic2Nc6-4Qc7-4Qb6.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5 #SicilianLowenthal.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 #Sicilian2Nc6Other5.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 #Sicilian2Nc6Other5.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Qb6 #Sicilian2Nc6Other5.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 #SicilianAccelDragon.zip
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6 #SicilianSveshniNov.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Be23 #SicilianNanOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Be3 #SicilianNanOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.g3 #SicilianNanOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 #SicilianNan5c4.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 #SicilianNan5Nc3.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 #SicilianNan5Bd3.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3, Nxc6, c4, Be2, g3 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nxc6 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.c4 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be2 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.g3 #SicilianTaimanovOther5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nb5 #SicilianTaimanov5Nb5.zip
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3 #SicilianTaimanovMain.zip
+1.e4 c5 2.Nf3 d6 3.Bb5+ #SicilianMoscow.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 #Sicilian2d6-4Qxd4.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.g3 #SicilianDragonOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f4 #SicilianDragonOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f3 #SicilianDragonOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Bg5 #SicilianDragonOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be2, Bc4 #SicDragon6Be2-6Bc4.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7 7.f3 #SicilianDragonYugoslav.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2 #SicilianClassicalOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be3 #SicilianClassicalOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f3 #SicilianClassicalOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.g3 #SicilianClassicalOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f4 #SicilianClassicalOther6.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4 #SicilianClassicalSozin.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 #SicilianRichter-Rauzer.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 #SicilianScheveningen.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.a4 #SicilianNajdorf6a4.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.g3 #SicilianNajdorf6g3.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 #SicilianNajdorf6f3.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f4 #SicilianNajdorf6f4.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bc4 #SicilianNajdorf6Bc4.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 #SicilianNajdorf6Be3.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 #SicilianNajdorf6Be2.zip
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 #SicilianNajdorf6Bg5.zip
+1.e4 e5 2.d4 exd4 #CenterGame-Danish.zip
+1.e4 e5 2.Bc4 #BsOpening.zip
+1.e4 e5 2.f4 #NingsGambit.zip
+1.e4 e5 2.Nc3 #Vienna.zip
+1.e4 e5 2.Nf3 d5 #Latvian-Elephant.zip
+1.e4 e5 2.Nf3 f5 #Latvian-Elephant.zip
+1.e4 e5 2.Nf3 d6 #Philidor.zip
+1.e4 e5 2.Nf3 Nf6 3.Nc3 #PetroffOther3.zip
+1.e4 e5 2.Nf3 Nf6 3.d4 #PetroffOther3.zip
+1.e4 e5 2.Nf3 Nf6 3.d3 #PetroffOther3.zip
+1.e4 e5 2.Nf3 Nf6 3.Bc4 #PetroffOther3.zip
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 #PetroffMain.zip
+1.e4 e5 2.Nf3 Nc6 3.c3 #Ponziani.zip
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Bc5 #ThreeNs.zip
+1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 #ThreeNs.zip
+1.e4 e5 2.Nf3 Nc6 3.Nc3 d6 #ThreeNs.zip
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 #ThreeNs.zip
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 #FourNs.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 #GoringGambit.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 #ScotchGambit.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qf6 #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+ #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 d6 #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 g6 #ScotchOther4.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 #Scotch4Nf6.zip
+1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 #Scotch4Bc5.zip
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 #Hungarian.zip
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 #TwoNs.zip
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 #GiuocoPiano.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 #RuyLopezOther3.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 #RuyLopezOther3.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 #RuyLopezOther3.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 #RuyLopezOther3.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 #RuyLopezClassical.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 #RuyLopezSchliemann.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 #RuyLopezBerlin.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 #RuyLopezExchange.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 #RuyLopezModSteinitz.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 #RuyLopezOther5.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d4 #RuyLopezOther5.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 #RuyLopezOther5.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 #RuyLopezOpen.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Bc5 #RuyMoeller-SteinDef.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6 #RuyMoeller-SteinDef.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bb7 #RuyLopezArchangelsN.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6 #RuyLopezOther6.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2 #RuyLopezOther6.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4 #RuyLopezOther6.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3 #RuyLopezOther6.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Nc3 #RuyLopezOther6.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.a4 #RuyLopezAntiMarshall.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.h3 #RuyLopezAntiMarshall.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.d4 #RuyLopezAntiMarshall.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.d3 #RuyLopezAntiMarshall.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 O-O 8.c3 d5 #RuyLopezMarshall.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.d4 #RuyLopezOther9.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.d3 #RuyLopezOther9.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.a4 #RuyLopezOther9.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nd7 #RuyLopezNar-Smy-Nhol.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 h6 #RuyLopezNar-Smy-Nhol.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Be6 #RuyLopezNar-Smy-Nhol.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 #RuyLopezBreyer.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Bb7 #RuyLopezFlohr-Zaitsev.zip
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.RooNe1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4 #RuyLopezChigorin.zip
+1.c4 b6 #English1b6.zip
+1.c4 f5 #English1f5.zip
+1.c4 c6 #English1c6.zip
+1.c4 g6 #English1g6.zip
+1.c4 c5 2.Nf3 Nf6 3.g3 b6 4.Bg2 Bb7 5.O-O g6 #EngSymDoubleFianchetto.zip
+1.c4 c5 2.Nf3 Nf6 3.g3 b6 4.Bg2 Bb7 5.O-O e6 #EnglishSymHedgehog.zip
+1.c4 c5 2.Nf3 Nf6 3.d4 #EnglishSym3d4.zip
+1.c4 c5 2.Nc3 Nf6 3.Nf3 e6 #EnglishSymOtherB3.zip
+1.c4 c5 2.Nc3 Nf6 3.Nf3 d5 #EnglishSymOtherB3.zip
+1.c4 c5 2.Nc3 Nf6 3.Nf3 g6 #EnglishSymOtherB3.zip
+1.c4 c5 2.Nc3 Nf6 3.Nf3 b6 #EnglishSymOtherB3.zip
+1.c4 c5 2.Nc3 Nf6 3.Nf3 Nc6 #EnglishSymFourNs.zip
+1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 #EnglishSymMain.zip
+1.c4 e6 2.Nf3 d5 #English1e6-2Nf3-d5.zip
+1.c4 e6 2.Nc3 d5 #English1e6-2Nc3-d5.zip
+1.c4 e6 2.Nc3 Nf6 3.e4 #EnglishFlohr-MiNenas.zip
+1.c4 e6 2.Nc3 Nf6 3.Nf3 #English1e6Main.zip
+1.c4 e5 2.g3 #EnglishSicRev2g3.zip
+1.c4 e5 2.Nc3 Bb4 #EnglishSicRevOtherB2.zip
+1.c4 e5 2.Nc3 d6 #EnglishSicRevOtherB2.zip
+1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 #EnglishSicRev4Ns.zip
+1.c4 e5 2.Nc3 Nf6 3.g3 #EnglishSicRevBremen.zip
+1.c4 e5 2.Nc3 Nc6 #EnglishSicRevClosed.zip
+1.c4 Nf6 2.g3 #English1Nf6-2g3.zip
+1.c4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O #English1Nf6-2Nf3.zip
+1.c4 Nf6 2.Nc3 g6 #English1Nf6-2Nc3.zip
+1.Nf3 d5 2.b3 #Reti2b3.zip
+1.Nf3 d5 2.c4 #Reti2c4.zip
+1.Nf3 d5 2.g3 #RetiNIA.zip
+1.f4 #Bird.zip
+1.b3 #Nimzowitsch-Larsen.zip
+1.b4 #SoNolsNy.zip
+1.Nc3 #Dunst.zip
